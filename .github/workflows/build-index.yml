@@ -1,0 +1,44 @@
+name: Build index (images_db.json + sidecar CSV)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "images/**"
+      - "validate_pack.py"
+      - "scripts/validate_pack.py"
+      - ".github/workflows/build-index.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run validator
+        run: |
+          python --version
+          if [ -f "validate_pack.py" ]; then
+            python validate_pack.py --images ./images --out ./json --owner Tazevil --repo ArBot-MiniDB --branch main
+          else
+            python ./scripts/validate_pack.py --images ./images --out ./json --owner Tazevil --repo ArBot-MiniDB --branch main
+          fi
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add json/images_db.json json/images_sidecar.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(index): regenerate images_db.json + sidecar"
+            git push
+          else
+            echo "No changes to commit."
+          fi
