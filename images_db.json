@@ -1,0 +1,1135 @@
+{
+  "db_name": "ArBotMiniDB_Auto",
+  "created_at": "2025-11-06",
+  "count": 94,
+  "items": [
+    {
+      "id": "0001",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0001_SDB_GEN_20250818.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0002",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0002_SDB_GEN_20250818.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0003",
+      "title": "Vue Generale · SALON PROTECTION · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0003_SALON-PROTECTION_GEN_20250818.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "salon-protection",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0004",
+      "title": "Vue Generale · SALON PROTECTION · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0004_SALON-PROTECTION_GEN_20250818.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "salon-protection",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0005",
+      "title": "Vue Generale · WC · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0005_WC_GEN_20250818.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "wc",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0006",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0006_SDB_GEN_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0007",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0007_SDB_GEN_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0008",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0008_SDB_GEN_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0009",
+      "title": "Vue Generale · SDB · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0009_SDB_MAC_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "mac"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0010",
+      "title": "Vue Generale · SDB · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0010_SDB_MAC_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "mac"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0011",
+      "title": "Vue Generale · WC · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0011_WC_GEN_20250819.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "wc",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0012",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0012_SDB_GEN_20250826.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0013",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0013_SDB_GEN_20250826.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0014",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0014_SDB_GEN_20250826.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "0015",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/0015_SDB_GEN_20250826.jpg",
+      "tags": [
+        "chantier",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "chantier"
+    },
+    {
+      "id": "2001",
+      "title": "Vue Generale · SDB · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2001_SDB_GEN.jpg",
+      "tags": [
+        "sdb",
+        "vue generale",
+        "sdb",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2002",
+      "title": "Vue Generale · BAIGNOIRE · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2002_BAIGNOIRE_GEN.jpg",
+      "tags": [
+        "sdb",
+        "vue generale",
+        "baignoire",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2003",
+      "title": "Vue Generale · BAIGNOIRE · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2003_BAIGNOIRE_GEN.jpg",
+      "tags": [
+        "sdb",
+        "vue generale",
+        "baignoire",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2004",
+      "title": "Vue Generale · SOUS BAIGNOIRE · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "tags": [
+        "sdb",
+        "vue generale",
+        "sous-baignoire",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2005",
+      "title": "Vue Generale · SOUS MEUBLE VASQUE · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2005_SOUS-MEUBLE-VASQUE_GEN.jpg",
+      "tags": [
+        "sdb",
+        "vue generale",
+        "sous-meuble-vasque",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2101",
+      "title": "Plomberie · ALIMENTATION EVACUATION · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "alimentation-evacuation",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2102",
+      "title": "Plomberie · EVACUATION · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2102_EVACUATION_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "evacuation",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2103",
+      "title": "Plomberie · EVACUATION · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2103_EVACUATION_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "evacuation",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2104",
+      "title": "Plomberie · ALIMENTATION · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2104_ALIMENTATION_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "alimentation",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2105",
+      "title": "Plomberie · ALIMENTATION EVACUATION · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "alimentation-evacuation",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2106",
+      "title": "Plomberie · EVACUATION · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2106_EVACUATION_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "evacuation",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2107",
+      "title": "Plomberie · EVACUATION · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2107_EVACUATION_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "evacuation",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2108",
+      "title": "Plomberie · EVACUATION · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2108_EVACUATION_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "evacuation",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2109",
+      "title": "Plomberie · ALIMENTATION EVACUATION · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2109_ALIMENTATION-EVACUATION_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "alimentation-evacuation",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2110",
+      "title": "Plomberie · VENTILATION NATURELLE · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2110_VENTILATION-NATURELLE_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "ventilation-naturelle",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2111",
+      "title": "Plomberie · VENTILATION NATURELLE · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2111_VENTILATION-NATURELLE_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "ventilation-naturelle",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2112",
+      "title": "Plomberie · MITIGEUR BAIN · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2112_MITIGEUR-BAIN_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "mitigeur-bain",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2113",
+      "title": "Plomberie · MITIGEUR BAIN · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2113_MITIGEUR-BAIN_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "mitigeur-bain",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2114",
+      "title": "Plomberie · MITIGEUR BAIN · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2114_MITIGEUR-BAIN_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "mitigeur-bain",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2115",
+      "title": "Plomberie · MITIGEUR BAIN · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2115_MITIGEUR-BAIN_MAC.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "mitigeur-bain",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2116",
+      "title": "Plomberie · MITIGEUR BAIN · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2116_MITIGEUR-BAIN_DET.jpg",
+      "tags": [
+        "sdb",
+        "plomberie",
+        "mitigeur-bain",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2201",
+      "title": "Baignoire · APPUI · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2201_APPUI_DET.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2202",
+      "title": "Baignoire · JOINT · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2202_JOINT_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "joint",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2203",
+      "title": "Baignoire · APPUI · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2203_APPUI_DET.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2204",
+      "title": "Baignoire · APPUI · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2204_APPUI_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2205",
+      "title": "Baignoire · APPUI · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2205_APPUI_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2206",
+      "title": "Baignoire · APPUI · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2206_APPUI_DET.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2207",
+      "title": "Baignoire · APPUI · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2207_APPUI_DET.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "appui",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2208",
+      "title": "Baignoire · PIEDS · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2208_PIEDS_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "pieds",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2209",
+      "title": "Baignoire · PIEDS SIPHON · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2209_PIEDS-SIPHON_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "pieds-siphon",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2210",
+      "title": "Baignoire · PIEDS · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2210_PIEDS_MAC.jpg",
+      "tags": [
+        "sdb",
+        "baignoire",
+        "pieds",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2301",
+      "title": "Carrelage · JOINT · MGM",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2301_JOINT_MGM.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgm"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2302",
+      "title": "Carrelage · JOINT · MGM",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2302_JOINT_MGM.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgm"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2303",
+      "title": "Carrelage · JOINT · MGM",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2303_JOINT_MGM.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgm"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2304",
+      "title": "Carrelage · INTERRUPTEUR PRISE · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2304_INTERRUPTEUR-PRISE_MAC.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "interrupteur-prise",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2305",
+      "title": "Carrelage · JOINT · MGS",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2305_JOINT_MGS.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgs"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2306",
+      "title": "Carrelage · JOINT · MGS",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2306_JOINT_MGS.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgs"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2307",
+      "title": "Carrelage · JOINT · MGS",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2307_JOINT_MGS.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgs"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2308",
+      "title": "Carrelage · JOINT · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2308_JOINT_MGP.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2309",
+      "title": "Carrelage · JOINT · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2309_JOINT_MGP.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2310",
+      "title": "Carrelage · JOINT · MGB",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2310_JOINT_MGB.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgb"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2311",
+      "title": "Carrelage · JOINT · MGB",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2311_JOINT_MGB.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mgb"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2312",
+      "title": "Carrelage · JOINT · MAC",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2312_JOINT_MAC.jpg",
+      "tags": [
+        "sdb",
+        "carrelage",
+        "joint",
+        "mac"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2401",
+      "title": "Fenetre · CARRELAGE DESALIGNEMENT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2401_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "carrelage-desalignement",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2402",
+      "title": "Fenetre · BAGUETTE BOIS · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2402_BAGUETTE-BOIS_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "baguette-bois",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2403",
+      "title": "Fenetre · CARRELAGE DESALIGNEMENT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2403_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "carrelage-desalignement",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2404",
+      "title": "Fenetre · CARRELAGE DESALIGNEMENT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "carrelage-desalignement",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2405",
+      "title": "Fenetre · CARRELAGE DESALIGNEMENT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2405_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "carrelage-desalignement",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2406",
+      "title": "Fenetre · BAGUETTE BOIS · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2406_BAGUETTE-BOIS_DET.jpg",
+      "tags": [
+        "sdb",
+        "fenetre",
+        "baguette-bois",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2501",
+      "title": "Plafond · JOINT PEINTURE · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2501_JOINT-PEINTURE_MGP.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "joint-peinture",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2502",
+      "title": "Plafond · JOINT PEINTURE · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2502_JOINT-PEINTURE_MGP.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "joint-peinture",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2503",
+      "title": "Plafond · JOINT · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2503_JOINT_MGP.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "joint",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2504",
+      "title": "Plafond · JOINT · MGP",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2504_JOINT_MGP.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "joint",
+        "mgp"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2505",
+      "title": "Plafond · SPOT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2505_SPOT_DEG.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "spot",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2506",
+      "title": "Plafond · SPOT VMC · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2506_SPOT-VMC_DEG.jpg",
+      "tags": [
+        "sdb",
+        "plafond",
+        "spot-vmc",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2901",
+      "title": "Cat_9 · MEUBLE VASQUE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2901_MEUBLE-VASQUE_DEG.jpg",
+      "tags": [
+        "sdb",
+        "cat_9",
+        "meuble-vasque",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2902",
+      "title": "Cat_9 · BAGUETTES BOIS · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2902_BAGUETTES-BOIS_DEG.jpg",
+      "tags": [
+        "sdb",
+        "cat_9",
+        "baguettes-bois",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2903",
+      "title": "Cat_9 · DECOR BOIS · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2903_DECOR-BOIS_DEG.jpg",
+      "tags": [
+        "sdb",
+        "cat_9",
+        "decor-bois",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2904",
+      "title": "Cat_9 · DECOR BOIS · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2904_DECOR-BOIS_DEG.jpg",
+      "tags": [
+        "sdb",
+        "cat_9",
+        "decor-bois",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "2905",
+      "title": "Cat_9 · DECOR BOIS · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/2905_DECOR-BOIS_DEG.jpg",
+      "tags": [
+        "sdb",
+        "cat_9",
+        "decor-bois",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3601",
+      "title": "Platerie · JOINT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3601_JOINT_DET.jpg",
+      "tags": [
+        "wc",
+        "platerie",
+        "joint",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3602",
+      "title": "Platerie · JOINT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3602_JOINT_DET.jpg",
+      "tags": [
+        "wc",
+        "platerie",
+        "joint",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3603",
+      "title": "Platerie · JOINT · DET",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3603_JOINT_DET.jpg",
+      "tags": [
+        "wc",
+        "platerie",
+        "joint",
+        "det"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3701",
+      "title": "Sanitaire · CUVETTE · GEN",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3701_CUVETTE_GEN.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "gen"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3702",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3702_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3703",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3703_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3704",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3704_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3705",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3705_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3706",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3706_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3707",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3707_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3708",
+      "title": "Sanitaire · CUVETTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3708_CUVETTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "cuvette",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3709",
+      "title": "Sanitaire · COFFRAGE BATI SUPPORT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3709_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "coffrage-bati-support",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3710",
+      "title": "Sanitaire · COFFRAGE BATI SUPPORT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3710_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "coffrage-bati-support",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3711",
+      "title": "Sanitaire · COFFRAGE BATI SUPPORT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3711_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "tags": [
+        "wc",
+        "sanitaire",
+        "coffrage-bati-support",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3801",
+      "title": "Placard · PORTE · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3801_PORTE_DEG.jpg",
+      "tags": [
+        "wc",
+        "placard",
+        "porte",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3802",
+      "title": "Placard · DORMANT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3802_DORMANT_DEG.jpg",
+      "tags": [
+        "wc",
+        "placard",
+        "dormant",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3803",
+      "title": "Placard · DORMANT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3803_DORMANT_DEG.jpg",
+      "tags": [
+        "wc",
+        "placard",
+        "dormant",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3804",
+      "title": "Placard · DORMANT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3804_DORMANT_DEG.jpg",
+      "tags": [
+        "wc",
+        "placard",
+        "dormant",
+        "deg"
+      ],
+      "classification": "sinistre"
+    },
+    {
+      "id": "3805",
+      "title": "Placard · DORMANT · DEG",
+      "url": "https://raw.githubusercontent.com/Tazevil/ArBot-MiniDB/main/images/3805_DORMANT_DEG.jpg",
+      "tags": [
+        "wc",
+        "placard",
+        "dormant",
+        "deg"
+      ],
+      "classification": "sinistre"
+    }
+  ]
+}
