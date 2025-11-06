@@ -1,8 +1,0 @@
-{
-  "version": "1.0.0",
-  "generated_at": "2025-11-06T00:00:00Z",
-  "checksum_global_sha256": "TO_BE_FILLED_BY_generate_checksum.bat",
-  "counts": {"images": "UNKNOWN", "docs": 0, "json": 1},
-  "folders": ["images", "docs", "json"],
-  "notes": "Mini base ArBot pour tests Vision/Doc"
-}
