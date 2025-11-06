@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2025-11-06T00:00:00Z",
+  "checksum_sha256": "UNKNOWN",
+  "counts": {
+    "images": 3,
+    "docs": 3,
+    "json": 2
+  },
+  "folders": ["images", "docs", "json"],
+  "notes": "Mini base ArBot pour tests de pipeline Vision/Doc"
+}
