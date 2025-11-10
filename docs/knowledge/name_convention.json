@@ -120,7 +120,7 @@
     ]
   },
   "validations": {
-    "id_consistency": "file_ID == zone_ID*1000 + cat_ID*100 + cat_img_ID",
+    "id_consistency": "file_ID == zone_ID*1000 + cat_ID*100 + cat_img_ID*10",
     "id_uniqueness_scope": "cat_img_ID unique per (zone_ID, cat_ID)",
     "detail_charset": "^[A-Z0-9À-ÖØ-Ý]+(?:-[A-Z0-9À-ÖØ-Ý]+)*$",
     "no_spaces_in_detail": true,
@@ -155,7 +155,7 @@
     {
       "zone_ID": 0,
       "cat_ID": 0,
-      "cat_img_ID": 1,
+      "cat_img_ID": 01,
       "file_ID": 0001,
       "file_name": "0001_SALON_DEG.jpg"
     }

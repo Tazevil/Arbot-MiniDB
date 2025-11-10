@@ -107,7 +107,7 @@ def main():
             cat_ID = (file_ID % 1000) // 100
             cat_img_ID = file_ID % 100
 
-            id_ok = (file_ID == zone_ID*1000 + cat_ID*100 + cat_img_ID)
+            id_ok = (file_ID == zone_ID*1000 + cat_ID*100 + cat_img_ID*10)
 
             # names
             zone_name = ZONE.get(zone_ID, "UNKNOWN")
