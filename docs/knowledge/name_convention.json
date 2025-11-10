@@ -7,7 +7,7 @@
     "zone_ID": "int [0..9]",
     "cat_ID": "int [0..99]",
     "cat_img_ID": "int [1..99]",
-    "file_ID_formula": "zone_ID*1000 + cat_ID*100 + cat_img_ID",
+    "file_ID_formula": "zone_ID*1000 + cat_ID*100 + cat_img_ID*10",
     "file_ID_padding": "filename uses file_ID padded to 4 digits",
     "detail": "UPPERCASE, accents allowed, hyphens, no spaces",
     "viewtype": "enum code",
@@ -74,6 +74,10 @@
       {
         "cat_name": "PLACARD",
         "cat_ID": 8
+      },
+      {
+        "cat_name": "EXISTANT",
+        "cat_ID": 9
       }
     ],
     "viewtype": [
@@ -137,14 +141,14 @@
     {
       "zone_ID": 3,
       "cat_ID": 6,
-      "cat_img_ID": 1,
+      "cat_img_ID": 01,
       "file_ID": 3601,
       "file_name": "3601_JOINT_DET.jpg"
     },
     {
       "zone_ID": 3,
       "cat_ID": 7,
-      "cat_img_ID": 5,
+      "cat_img_ID": 05,
       "file_ID": 3705,
       "file_name": "3705_PIED_DET.jpg"
     },
@@ -152,7 +156,7 @@
       "zone_ID": 0,
       "cat_ID": 0,
       "cat_img_ID": 1,
-      "file_ID": 1,
+      "file_ID": 0001,
       "file_name": "0001_SALON_DEG.jpg"
     }
   ]
