@@ -1,0 +1,11 @@
+Catégorie,Type d'erreur,Détail,Fichier concerné,Gravité,Action suggérée,Statut,Date
+Identité,Doublon contact,Bouharb Houssem apparaît avec 2 téléphones différents,Contacts,Moyen,Fusion manuelle,Ouvert,2025-10-24
+Identité,Alias entreprise,GEOP Assistance vs GM Consultant Lyon,Contacts,Faible,Confirmé même groupe,Résolu,2025-10-24
+Chronologie,Dates incohérentes,SMS avant appel correspondant,SMS/Appels,Faible,Corriger ordre,En cours,2025-10-24
+Coordonnées,Numéros multiples,Jean-Pascal: +33613859520 et +33651703457,Contacts,Moyen,Vérification externe,Ouvert,2025-10-24
+Budget,Contradictions tarifaires,Faïence: 450€ (Dogan) vs 600€ (GEOP),Emails,Élevé,Audit factures,Non résolu,2025-10-24
+Communication,Silence anormal,49 jours sans échange juin 2025,Chronologie,Élevé,Confirmé par logs,Vérifié,2025-10-24
+Prestataire,Changement non notifié,Dogan → Rhône Bâtiment sans accord préalable,Appels,Élevé,Signalement MAAF,En attente,2025-10-24
+Expertise,Clôture prématurée,Dossier clos sans PV réception assurés,SMS,Élevé,Réclamation formelle,En cours,2025-10-24
+Technique,Codes multiples,DocuSign: 3 codes différents même période,Emails,Faible,Normal process,Résolu,2025-10-24
+Structure,Entité floue,Rhône Bâtiment: SIRET non vérifié,Contacts,Moyen,Vérification RCS,En cours,2025-10-24

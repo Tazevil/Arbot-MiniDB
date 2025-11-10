@@ -1,0 +1,885 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+PACK="ArBot-Vision-Pack_v0.7.1"
+ROOT="${PACK}"
+MOD="${ROOT}/modules"
+SCHEMAS="${ROOT}/schemas"
+PROMPTS="${ROOT}/prompts"
+
+mkdir -p "$MOD" "$SCHEMAS" "$PROMPTS"
+
+# -------------------------
+# schemas / annotations 1.1.1
+# -------------------------
+cat > "${SCHEMAS}/annotations.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:annotations:1.1.1",
+  "$anchor": "annotation",
+  "title": "ArBot Annotations Schema",
+  "version": "1.1.1",
+  "type": "object",
+  "required": ["id_defaut", "categorie", "type_defaut", "origin_layer", "gravite_technique", "polygons_norm"],
+  "additionalProperties": false,
+  "properties": {
+    "id_defaut": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+_[A-Za-z0-9_-]+_D\\d{2}$"
+    },
+    "categorie": {
+      "type": "string",
+      "enum": ["ETANCHEITE","PLOMBERIE","CARRELAGE","STRUCTURE","MENUISERIE","CVC","ELECTRICITE","AUTRE"]
+    },
+    "type_defaut": { "type": "string" },
+    "origin_layer": {
+      "type": "string",
+      "enum": ["SURFACE","SUPPORT","STRUCTUREL","INFRA"]
+    },
+    "gravite_technique": { "type": "integer", "enum": [1,2,3] },
+    "polygons_norm": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 30,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 },
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 }
+          ]
+        }
+      },
+      "description": "Polygones fermes prioritaires."
+    },
+    "polylines_norm": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 30,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 },
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 }
+          ]
+        }
+      },
+      "description": "Fallback optionnel si polygons_norm < 2. Un seul polygone est valide sans polyligne."
+    },
+    "mask_polygon_norm": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 100,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 },
+            { "type": "number", "minimum": 0.0, "maximum": 1.0, "multipleOf": 0.0001 }
+          ]
+        }
+      }
+    },
+    "style": { "type": "string", "enum": ["CRITIQUE","MAJEUR","MINEUR","INFO"] },
+    "incertitude": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "regle_ref": {
+      "type": "object",
+      "required": ["doc_id","source_page","article_id"],
+      "properties": {
+        "doc_id": { "type": "string" },
+        "source_page": { "type": "string" },
+        "article_id": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "x_extensions": { "type": "object" }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / ingestion_step 1.0.0
+# -------------------------
+cat > "${SCHEMAS}/ingestion_step.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:ingestion_step:1.0.0",
+  "$anchor": "ingestionStep",
+  "title": "ArBot Ingestion Step",
+  "type": "object",
+  "required": ["step","active","skipped","status","inputs","outputs","incertitudes","simulations","citations","audit"],
+  "additionalProperties": false,
+  "properties": {
+    "step": { "type": "string", "const": "INGESTION" },
+    "active": { "type": "boolean" },
+    "skipped": { "type": "boolean" },
+    "status": { "type": "string", "enum": ["success","error"] },
+    "inputs": {
+      "type": "object",
+      "required": ["paths","filters"],
+      "properties": {
+        "paths": {
+          "type": "object",
+          "properties": {
+            "root": { "type": "string" },
+            "photos_dir": { "type": "string" },
+            "docs_dir": { "type": "string" },
+            "tables_dir": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "filters": {
+          "type": "object",
+          "properties": {
+            "images_ext": { "type": "array", "items": { "type": "string" } },
+            "docs_ext": { "type": "array", "items": { "type": "string" } },
+            "tables_ext": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "outputs": {
+      "type": "object",
+      "required": ["files","counts"],
+      "properties": {
+        "files": { "type": "array", "items": { "type": "string" } },
+        "counts": {
+          "type": "object",
+          "required": ["photo","pdf","docx","xlsx"],
+          "properties": {
+            "photo": { "type": "integer", "minimum": 0 },
+            "pdf": { "type": "integer", "minimum": 0 },
+            "docx": { "type": "integer", "minimum": 0 },
+            "xlsx": { "type": "integer", "minimum": 0 }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "incertitudes": { "type": "array", "items": { "type": "string" } },
+    "simulations": { "type": "array", "items": { "type": "string" } },
+    "citations": { "type": "array", "items": { "type": "string" } },
+    "audit": {
+      "type": "object",
+      "required": ["modules_checked","schemas_validated","controlpanel_version"],
+      "properties": {
+        "modules_checked": { "type": "array", "items": { "type": "string" } },
+        "schemas_validated": { "type": "array", "items": { "type": "string" } },
+        "controlpanel_version": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / vision_analysis 1.0.0
+# -------------------------
+cat > "${SCHEMAS}/vision_analysis.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:vision_analysis:1.0.0",
+  "$anchor": "visionAnalysis",
+  "title": "ArBot Vision Analysis",
+  "type": "object",
+  "required": ["step","active","skipped","status","inputs","outputs","incertitudes","simulations","citations","audit"],
+  "additionalProperties": false,
+  "properties": {
+    "step": { "type": "string", "const": "VISION_ANALYSIS" },
+    "active": { "type": "boolean" },
+    "skipped": { "type": "boolean" },
+    "status": { "type": "string", "enum": ["success","error"] },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "mode": { "type": "string", "enum": ["multi_pass","bbox","polyline"] },
+        "high_gravity": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "outputs": {
+      "type": "object",
+      "required": ["frames"],
+      "properties": {
+        "frames": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id","file","sha256","width","height","annotations"],
+            "properties": {
+              "id": { "type": "integer", "minimum": 1 },
+              "file": { "type": "string" },
+              "sha256": { "type": "string" },
+              "width": { "type": "integer", "minimum": 1 },
+              "height": { "type": "integer", "minimum": 1 },
+              "annotations": { "type": "array", "items": { "$ref": "urn:arbot:schema:annotations:1.1.1#annotation" } }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "incertitudes": { "type": "array", "items": { "type": "string" } },
+    "simulations": { "type": "array", "items": { "type": "string" } },
+    "citations": { "type": "array", "items": { "type": "string" } },
+    "audit": {
+      "type": "object",
+      "required": ["modules_checked","schemas_validated","controlpanel_version"],
+      "properties": {
+        "modules_checked": { "type": "array", "items": { "type": "string" } },
+        "schemas_validated": { "type": "array", "items": { "type": "string" } },
+        "controlpanel_version": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / def_all 1.0.0
+# -------------------------
+cat > "${SCHEMAS}/def_all.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:def_all:1.0.0",
+  "$anchor": "defAll",
+  "title": "ArBot DEF_ALL",
+  "type": "object",
+  "required": ["meta","DEF_ALL"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version","generated_at"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "1.0.0" },
+        "generated_at": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    },
+    "DEF_ALL": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id_defaut","categorie","type_defaut","origin_layer","gravite_technique","image_ref","regle_ref"],
+        "properties": {
+          "id_defaut": { "type": "string" },
+          "categorie": { "type": "string" },
+          "type_defaut": { "type": "string" },
+          "origin_layer": { "type": "string" },
+          "gravite_technique": { "type": "integer", "enum": [1,2,3] },
+          "image_ref": { "type": "string" },
+          "style": { "type": "string" },
+          "incertitude": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+          "regle_ref": {
+            "type": "object",
+            "required": ["doc_id","source_page","article_id"],
+            "properties": {
+              "doc_id": { "type": "string" },
+              "source_page": { "type": "string" },
+              "article_id": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "polygons_norm": { "$ref": "urn:arbot:schema:annotations:1.1.1#/properties/polygons_norm" },
+          "polylines_norm": { "$ref": "urn:arbot:schema:annotations:1.1.1#/properties/polylines_norm" },
+          "x_extensions": { "type": "object" }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / project_context 1.0.0
+# -------------------------
+cat > "${SCHEMAS}/project_context.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:project_context:1.0.0",
+  "$anchor": "projectContext",
+  "title": "ArBot Project Context",
+  "type": "object",
+  "required": ["schema_version","dossier","dates","intervenants","zones"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "dossier": {
+      "type": "object",
+      "required": ["project_id","project_name","project_type"],
+      "properties": {
+        "project_id": { "type": "string" },
+        "project_name": { "type": "string" },
+        "project_type": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "debut": { "type": "string" },
+        "fin": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "intervenants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "nom": { "type": "string" },
+          "contact": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "zones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "zone_id": { "type": "string" },
+          "nom": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / report_mirror 1.0.0
+# -------------------------
+cat > "${SCHEMAS}/report_mirror.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:report_mirror:1.0.0",
+  "$anchor": "reportMirror",
+  "title": "ArBot Report Mirror",
+  "type": "object",
+  "required": ["meta","sections"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["generated_at","report_level"],
+      "properties": {
+        "generated_at": { "type": "string", "format": "date-time" },
+        "report_level": { "type": "integer", "enum": [0,1,2] }
+      },
+      "additionalProperties": false
+    },
+    "sections": {
+      "type": "object",
+      "properties": {
+        "introduction": { "type": "string" },
+        "observations": { "type": "array", "items": { "type": "object" } },
+        "annexe_normative": { "type": "array", "items": { "type": "object" } },
+        "conclusion": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
+EOF
+
+# -------------------------
+# schemas / controlpanel 0.7.1
+# -------------------------
+cat > "${SCHEMAS}/controlpanel.schema.json" <<'EOF'
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:controlpanel:0.7.1",
+  "$anchor": "controlPanel",
+  "title": "ArBot Control Panel Schema",
+  "type": "object",
+  "required": ["schema_version","generated_at","modules","runtime","vision_core","schemas","kb","constraints","audit"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.7.1" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "modules": { "type": "object" },
+    "runtime": { "type": "object" },
+    "ingestion": { "type": "object" },
+    "vision_core": { "type": "object" },
+    "naming": { "type": "object" },
+    "schemas": { "type": "object" },
+    "kb": { "type": "object" },
+    "rules": { "type": "object" },
+    "constraints": { "type": "object" },
+    "audit": { "type": "object" }
+  }
+}
+EOF
+
+# -------------------------
+# modules
+# -------------------------
+cat > "${MOD}/naming.policy.json" <<'EOF'
+{
+  "module": "naming.policy",
+  "version": "1.0.0",
+  "ascii_only": true,
+  "id_patterns": {
+    "file_ID": "^[0-9A-Za-z_-]{1,32}$",
+    "ann_ID": "^[0-9A-Za-z_-]{1,16}$",
+    "id_defaut": "<file_ID>_<ann_ID>_Dxx"
+  },
+  "def_class": {
+    "levels": ["G","P","T"],
+    "format": "Gx | Py | Tz",
+    "examples": ["G1 | P1 | T1","G2 | P2 | T2","G3 | P3 | T3"]
+  },
+  "classification_rules": {
+    "G": {
+      "G1": ["fuite","infiltration","eau","electrique","VMC","structurel","SPEC"],
+      "G3": ["esthetique","finition","peinture","bavure","laitance","microfissure"],
+      "fallback": "G2"
+    },
+    "P": {
+      "P1_if": ["G1","G2_and_(fuite_or_infiltration_or_EBplus)"],
+      "P3_if": ["G3"],
+      "fallback": "P2"
+    },
+    "T": {
+      "T1": ["structure","carrelage","baignoire","doublage"],
+      "T3": ["peinture","bavure","laitance","microfissure"],
+      "fallback": "T2"
+    }
+  }
+}
+EOF
+
+cat > "${MOD}/annotation.policy.json" <<'EOF'
+{
+  "module": "annotation.policy",
+  "version": "1.1.1",
+  "priority": "polygons_first",
+  "polygons": { "min_points": 6, "max_points": 30, "coords_normalized": true, "coords_decimal_places": 4 },
+  "polylines": { "allowed": true, "min_points": 6, "max_points": 30, "fallback_if_polygons_lt": 2 },
+  "mask_polygon": { "allowed": true, "max_points": 100 },
+  "style_map": { "3": "CRITIQUE", "2": "MAJEUR", "1": "MINEUR" }
+}
+EOF
+
+cat > "${MOD}/transform.image.json" <<'EOF'
+{
+  "module": "transform.image",
+  "version": "1.0.0",
+  "resize_mode": "fixed_scale",
+  "fixed_scale": 0.4,
+  "max_width": 1920,
+  "rotate_to_portrait": false,
+  "mirror": false,
+  "maintain_aspect_ratio": true
+}
+EOF
+
+cat > "${MOD}/render.style.json" <<'EOF'
+{
+  "module": "render.style",
+  "version": "1.0.0",
+  "duplicate_filter": true,
+  "text_overlay": false,
+  "stroke_color_rgb": [255, 0, 0],
+  "stroke_width": 4,
+  "fill_opacity": 0.2
+}
+EOF
+
+cat > "${MOD}/runtime.paths_filters.json" <<'EOF'
+{
+  "module": "runtime.paths_filters",
+  "version": "1.0.0",
+  "paths": {
+    "root": ".",
+    "photos_dir": "./photos",
+    "docs_dir": "./docs",
+    "tables_dir": "./tables",
+    "kb_root": "./kb"
+  },
+  "filters": {
+    "images_ext": [".jpg",".jpeg",".png",".webp",".tif",".tiff",".bmp",".heic",".heif"],
+    "docs_ext": [".pdf",".docx"],
+    "tables_ext": [".xlsx",".csv"]
+  }
+}
+EOF
+
+cat > "${MOD}/ingestion.policy.json" <<'EOF'
+{
+  "module": "ingestion.policy",
+  "version": "1.0.0",
+  "compute_sha256_for_photos": true,
+  "collect_image_dimensions": true,
+  "normalize_paths": "posix",
+  "disallow_backslashes": true,
+  "emit_images_frames": true,
+  "fail_on_counts_mismatch": true,
+  "emit_empty_lists_when_none": true,
+  "image_id_start": 1
+}
+EOF
+
+cat > "${MOD}/hyper_gravity.policy.json" <<'EOF'
+{
+  "module": "hyper_gravity.policy",
+  "version": "1.0.0",
+  "enabled": true,
+  "emit_juridical_fields_always": true,
+  "defaults": {
+    "niveau_confiance_juridique": 0.0,
+    "prejudice_estime": { "montant_euros": 0, "categorie": "faible" }
+  },
+  "thresholds": { "gravite_juridique_min": 1, "probabilite_recurrence_alert": 0.5 }
+}
+EOF
+
+cat > "${MOD}/kb.map.json" <<'EOF'
+{
+  "module": "kb.map",
+  "version": "1.0.0",
+  "articles_validated": "./kb/articles_validated.jsonl",
+  "clauses_validated_exhaustive": "./kb/clauses_validated_exhaustive.jsonl",
+  "clauses_full": "./kb/clauses_full.jsonl",
+  "index_keywords": "./kb/index_keywords.json",
+  "defaut_auto_map": "./kb/defaut_auto_map.jsonl",
+  "ontology_enriched": "./kb/Ontology.enriched.json",
+  "ontology_validated": "./kb/Ontology.validated.json"
+}
+EOF
+
+cat > "${MOD}/rules.citations_tokens.json" <<'EOF'
+{
+  "module": "rules.citations_tokens",
+  "version": "1.0.0",
+  "cite_norm_fields": ["doc_id","source_file","source_page","article_id"],
+  "unknown_token": "UNKNOWN",
+  "simulation_prefix": "SIMULATION:",
+  "incertitude_prefix": "INCERTITUDE:"
+}
+EOF
+
+cat > "${MOD}/constraints_and_audit.json" <<'EOF'
+{
+  "module": "constraints_and_audit",
+  "version": "1.0.0",
+  "output_order": ["step","active","skipped","status","inputs","outputs","incertitudes","simulations","citations","audit"],
+  "paths_pattern": "^[^\\\\]*$",
+  "controlpanel_version": "0.7.1",
+  "valid_at": "2025-10-28"
+}
+EOF
+
+cat > "${MOD}/pipeline.sequence.json" <<'EOF'
+{
+  "module": "pipeline.sequence",
+  "version": "1.0.0",
+  "sequence": ["BOOT","INGESTION","VISION_ANALYSIS","DEFECT_DETECTION","NORM_REFERENCE_LINK","CONTEXT_INTEGRATION","HYPER_GRAVITY","CAUSALITY_INFERENCE","JSON_VALIDATION","REPORTING"],
+  "defaults_active": {
+    "BOOT": true,
+    "INGESTION": true,
+    "VISION_ANALYSIS": true,
+    "DEFECT_DETECTION": true,
+    "NORM_REFERENCE_LINK": true,
+    "CONTEXT_INTEGRATION": false,
+    "HYPER_GRAVITY": true,
+    "CAUSALITY_INFERENCE": false,
+    "JSON_VALIDATION": true,
+    "REPORTING": false
+  }
+}
+EOF
+
+cat > "${MOD}/runtime.core.json" <<'EOF'
+{
+  "module": "runtime.core",
+  "version": "1.0.0",
+  "ocr": { "enabled": false },
+  "web": { "enabled": false },
+  "seed": 1337,
+  "extended_debug": false
+}
+EOF
+
+cat > "${MOD}/reporting.templates.json" <<'EOF'
+{
+  "module": "reporting.templates",
+  "version": "1.0.0",
+  "report_levels": [0,1,2],
+  "placeholders": {
+    "introduction": "",
+    "observations": "",
+    "annexe_normative": "",
+    "conclusion": ""
+  }
+}
+EOF
+
+cat > "${MOD}/schemas.registry.json" <<'EOF'
+{
+  "module": "schemas.registry",
+  "version": "1.0.0",
+  "urns": {
+    "ingestion_step": "urn:arbot:schema:ingestion_step:1.0.0",
+    "annotations": "urn:arbot:schema:annotations:1.1.1",
+    "vision_analysis": "urn:arbot:schema:vision_analysis:1.0.0",
+    "def_all": "urn:arbot:schema:def_all:1.0.0",
+    "project_context": "urn:arbot:schema:project_context:1.0.0",
+    "report_mirror": "urn:arbot:schema:report_mirror:1.0.0",
+    "controlpanel": "urn:arbot:schema:controlpanel:0.7.1"
+  }
+}
+EOF
+
+# -------------------------
+# controlpanel.json (production, modules charges, aucun debug)
+# -------------------------
+cat > "${ROOT}/controlpanel.json" <<'EOF'
+{
+  "schema_version": "0.7.1",
+  "generated_at": "2025-10-28T00:00:00Z",
+  "modules": {
+    "naming": "./modules/naming.policy.json",
+    "annotation": "./modules/annotation.policy.json",
+    "transform": "./modules/transform.image.json",
+    "render": "./modules/render.style.json",
+    "runtime_paths_filters": "./modules/runtime.paths_filters.json",
+    "ingestion_policy": "./modules/ingestion.policy.json",
+    "hyper_gravity": "./modules/hyper_gravity.policy.json",
+    "kb_map": "./modules/kb.map.json",
+    "rules": "./modules/rules.citations_tokens.json",
+    "constraints_and_audit": "./modules/constraints_and_audit.json",
+    "pipeline_sequence": "./modules/pipeline.sequence.json",
+    "runtime_core": "./modules/runtime.core.json",
+    "reporting_templates": "./modules/reporting.templates.json",
+    "schemas_registry": "./modules/schemas.registry.json"
+  },
+  "runtime": {
+    "module": "runtime.core",
+    "version": "1.0.0",
+    "ocr": { "enabled": false },
+    "web": { "enabled": false },
+    "seed": 1337,
+    "extended_debug": false
+  },
+  "paths_filters": {
+    "module": "runtime.paths_filters",
+    "version": "1.0.0",
+    "paths": {
+      "root": ".",
+      "photos_dir": "./photos",
+      "docs_dir": "./docs",
+      "tables_dir": "./tables",
+      "kb_root": "./kb"
+    },
+    "filters": {
+      "images_ext": [".jpg",".jpeg",".png",".webp",".tif",".tiff",".bmp",".heic",".heif"],
+      "docs_ext": [".pdf",".docx"],
+      "tables_ext": [".xlsx",".csv"]
+    }
+  },
+  "ingestion": {
+    "module": "ingestion.policy",
+    "version": "1.0.0",
+    "compute_sha256_for_photos": true,
+    "collect_image_dimensions": true,
+    "normalize_paths": "posix",
+    "disallow_backslashes": true,
+    "emit_images_frames": true,
+    "fail_on_counts_mismatch": true,
+    "emit_empty_lists_when_none": true,
+    "image_id_start": 1
+  },
+  "vision_core": {
+    "active": true,
+    "detection_mode": "polyline",
+    "passes": 3,
+    "scales": [1.0, 0.75, 0.5],
+    "nms_iou": 0.5,
+    "refine_below": 0.85,
+    "high_gravity_mode": {
+      "module": "hyper_gravity.policy",
+      "version": "1.0.0",
+      "enabled": true,
+      "emit_juridical_fields_always": true,
+      "defaults": {
+        "niveau_confiance_juridique": 0.0,
+        "prejudice_estime": { "montant_euros": 0, "categorie": "faible" }
+      },
+      "thresholds": { "gravite_juridique_min": 1, "probabilite_recurrence_alert": 0.5 }
+    },
+    "annotation_schema": {
+      "schema_id": "urn:arbot:schema:annotations:1.1.1",
+      "require_polygons": true,
+      "allow_multiple_polygons": true,
+      "allow_polylines": true,
+      "mask_polygon_allowed": true,
+      "coords_normalized": true,
+      "coords_decimal_places": 4
+    },
+    "transform": {
+      "module": "transform.image",
+      "version": "1.0.0",
+      "resize_mode": "fixed_scale",
+      "fixed_scale": 0.4,
+      "max_width": 1920,
+      "rotate_to_portrait": false,
+      "mirror": false,
+      "maintain_aspect_ratio": true
+    },
+    "render": {
+      "module": "render.style",
+      "version": "1.0.0",
+      "duplicate_filter": true,
+      "text_overlay": false,
+      "stroke_color_rgb": [255, 0, 0],
+      "stroke_width": 4,
+      "fill_opacity": 0.2
+    }
+  },
+  "naming": {
+    "module": "naming.policy",
+    "version": "1.0.0",
+    "ascii_only": true,
+    "id_patterns": {
+      "file_ID": "^[0-9A-Za-z_-]{1,32}$",
+      "ann_ID": "^[0-9A-Za-z_-]{1,16}$",
+      "id_defaut": "<file_ID>_<ann_ID>_Dxx"
+    },
+    "def_class": {
+      "levels": ["G","P","T"],
+      "format": "Gx | Py | Tz",
+      "examples": ["G1 | P1 | T1","G2 | P2 | T2","G3 | P3 | T3"]
+    },
+    "classification_rules": {
+      "G": {
+        "G1": ["fuite","infiltration","eau","electrique","VMC","structurel","SPEC"],
+        "G3": ["esthetique","finition","peinture","bavure","laitance","microfissure"],
+        "fallback": "G2"
+      },
+      "P": {
+        "P1_if": ["G1","G2_and_(fuite_or_infiltration_or_EBplus)"],
+        "P3_if": ["G3"],
+        "fallback": "P2"
+      },
+      "T": {
+        "T1": ["structure","carrelage","baignoire","doublage"],
+        "T3": ["peinture","bavure","laitance","microfissure"],
+        "fallback": "T2"
+      }
+    }
+  },
+  "schemas": {
+    "ingestion_step": "urn:arbot:schema:ingestion_step:1.0.0",
+    "annotations": "urn:arbot:schema:annotations:1.1.1",
+    "vision_analysis": "urn:arbot:schema:vision_analysis:1.0.0",
+    "def_all": "urn:arbot:schema:def_all:1.0.0",
+    "project_context": "urn:arbot:schema:project_context:1.0.0",
+    "report_mirror": "urn:arbot:schema:report_mirror:1.0.0",
+    "controlpanel": "urn:arbot:schema:controlpanel:0.7.1"
+  },
+  "kb": {
+    "articles_validated": "./kb/articles_validated.jsonl",
+    "clauses_validated_exhaustive": "./kb/clauses_validated_exhaustive.jsonl",
+    "clauses_full": "./kb/clauses_full.jsonl",
+    "index_keywords": "./kb/index_keywords.json",
+    "defaut_auto_map": "./kb/defaut_auto_map.jsonl",
+    "ontology_enriched": "./kb/Ontology.enriched.json",
+    "ontology_validated": "./kb/Ontology.validated.json"
+  },
+  "rules": {
+    "cite_norm_fields": ["doc_id","source_file","source_page","article_id"],
+    "unknown_token": "UNKNOWN",
+    "simulation_prefix": "SIMULATION:",
+    "incertitude_prefix": "INCERTITUDE:"
+  },
+  "constraints": {
+    "output_order": ["step","active","skipped","status","inputs","outputs","incertitudes","simulations","citations","audit"],
+    "paths_pattern": "^[^\\\\]*$"
+  },
+  "audit": {
+    "controlpanel_version": "0.7.1",
+    "valid_at": "2025-10-28"
+  }
+}
+EOF
+
+# -------------------------
+# prompts
+# -------------------------
+cat > "${PROMPTS}/phase1_ingestion_prompt.txt" <<'EOF'
+INGESTION
+Checklist: chemins, filtres, inventaire, compteurs, schemas.
+Sortie: urn:arbot:schema:ingestion_step:1.0.0
+EOF
+
+cat > "${PROMPTS}/phase2_vision_analysis_prompt.txt" <<'EOF'
+VISION_ANALYSIS
+Checklist: core actif, mode, high_gravity, annotations conformes, frames exhaustifs.
+Sortie: urn:arbot:schema:vision_analysis:1.0.0
+EOF
+
+cat > "${PROMPTS}/phase3_defect_detection_prompt.txt" <<'EOF'
+DEFECT_DETECTION
+Checklist: aggregation detections->defauts, id_defaut, categorie, origin_layer, gravite. Fallback polylines si <2 polygones.
+Sortie: structure pour DEF_ALL
+EOF
+
+cat > "${PROMPTS}/phase4_norm_reference_link_prompt.txt" <<'EOF'
+NORM_REFERENCE_LINK
+Checklist: defaut_auto_map, citations completes {doc_id,source_file,source_page,article_id}.
+Sortie: liens norme par defaut
+EOF
+
+cat > "${PROMPTS}/phase5_context_integration_prompt.txt" <<'EOF'
+CONTEXT_INTEGRATION
+Checklist: contexte si present, incertitude sinon.
+Sortie: {context_applied, notes}
+EOF
+
+cat > "${PROMPTS}/phase6_causality_inference_prompt.txt" <<'EOF'
+CAUSALITY_INFERENCE
+Checklist: hypotheses cause->effet sourcables, incertitude sinon.
+Sortie: {hypotheses, vices_caches}
+EOF
+
+cat > "${PROMPTS}/phase7_json_validation_prompt.txt" <<'EOF'
+JSON_VALIDATION
+Checklist: valider vs schemas, reporter ecarts.
+Sortie: {schemas_ok, errors}
+EOF
+
+cat > "${PROMPTS}/phase8_reporting_prompt.txt" <<'EOF'
+REPORTING
+Checklist: miroir, coherence DEF_ALL, annexe normative.
+Sortie: urn:arbot:schema:report_mirror:1.0.0
+EOF
+
+# -------------------------
+# zip
+# -------------------------
+zip -qr "${PACK}.zip" "${PACK}"
+
+echo "OK: ${PACK}.zip"

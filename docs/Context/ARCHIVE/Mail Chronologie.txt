@@ -1,0 +1,89 @@
+
+
+| Date | Expéditeur | Destinataires | Objet | Pièce(s) jointe(s) | Synthèse |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **Décembre 2024** |  |  |  |  |  |
+| 12/12/2024 11:38 | Vous | Nelly Blanc | (aucun) | IMG\_20241212\_1130.jpg, IMG\_20241212\_1131.jpg, IMG\_20241212\_1132.jpg | Prise de contact initiale avec l'entreprise Pertosa Design. Vous envoyez trois photos détaillées de la salle de bain endommagée pour obtenir une évaluation et un devis pour les travaux de rénovation nécessaires. |
+| 12/12/2024 17:47 | Nelly Blanc | Vous | RE: | Non | Nelly Blanc de Pertosa Design vous informe que son entreprise ne pourra pas donner suite à votre demande et accompagner votre projet de rénovation. |
+| 12/12/2024 17:57 | Vous | Nelly Blanc | RE: | Non | Vous accusez simplement réception de son courriel et prenez note du refus de l'entreprise. |
+| 24/12/2024 15:29 | LYON RENOVATION | Vous | Envoi devis DEV859 | DEV859\_LR.pdf | Réception d'une proposition commerciale chiffrée de la part de LYON RENOVATION pour les travaux envisagés dans votre salle de bain. |
+| 28/12/2024 21:11 | MAAF Ne pas répondre | Vous | Votre demande email bien reçue | Non | Réception d'un accusé de réception automatique de la MAAF, confirmant que votre demande par email a bien été enregistrée par leurs services. |
+| 30/12/2024 18:53 | Vous | contact@lyonrenovation.fr | Re: Envoi devis DEV859 | Non | Vous contactez LYON RENOVATION pour obtenir des informations complémentaires sur le devis DEV859, notamment concernant la durée estimée du chantier. |
+| 30/12/2024 18:54 | Mail Delivery Subsystem | Vous | Delivery Status Notification (Failure) | Non | Notification d'échec automatique indiquant que votre email à LYON RENOVATION n'a pas pu être délivré, la boîte de réception du destinataire étant pleine. |
+| **Janvier 2025** |  |  |  |  |  |
+| 14/01/2025 11:16 | chassin@illico-travaux.com | Vous | Confirmation RDV | Non | Rémy Chassin d'illiCO travaux confirme par email la planification d'un rendez-vous avec un de leurs artisans pour le jour suivant. |
+| 14/01/2025 18:35 | Vous | chassin@illico-travaux.com | Re: Confirmation RDV | Non | Vous répondez pour confirmer votre disponibilité pour le rendez-vous fixé, validant ainsi l'organisation de la visite. |
+| 23/01/2025 11:20 | chassin@illico-travaux.com | Vous | Devis Rénovation SDB | Devis\_SDB\_WC\_IT.pdf | Suite à la visite, illiCO travaux vous transmet le devis détaillé pour la réfection complète de la salle de bain et des toilettes. |
+| 24/01/2025 14:20 | Lili Rose (GEOP) | Vous | Prise de RDV Métreur Visio | Non | Lili Rose, agissant pour le compte de GEOP (prestataire de la MAAF), vous contacte pour organiser un rendez-vous en visioconférence avec un métreur afin d'évaluer les travaux. |
+| 28/01/2025 04:26 | GEOP ASSISTANCE | Vous | Confirmation RDV Visio | Non | Vous recevez une confirmation officielle de la part de GEOP ASSISTANCE pour le rendez-vous en visioconférence destiné à l'évaluation des dommages. |
+| **Février 2025** |  |  |  |  |  |
+| 03/02/2025 10:00 | GEOP ASSISTANCE | Vous | Rappel RDV Visio | Non | Un email de rappel automatique vous est envoyé par GEOP ASSISTANCE pour vous notifier de la tenue imminente du rendez-vous d'évaluation en visio. |
+| 03/02/2025 11:21 | GEOP Infos via Docusign | Vous | Demande de signature | Non | Vous recevez une notification de la plateforme Docusign, vous invitant à signer électroniquement les documents administratifs nécessaires à l'ouverture du chantier. |
+| 06/02/2025 09:26 | GEOP Infos via Docusign | Vous | Rappel pour signature | Non | Un premier rappel automatique de Docusign vous est adressé, car les documents d'ouverture de chantier n'ont pas encore été signés. |
+| 09/02/2025 21:45 | Vous | ce.lyon2@centre-expertise.com | Questions procédure MAAF/GEOP | Non | Vous écrivez au centre d'expertise pour demander des éclaircissements sur le déroulement de la procédure d'indemnisation et l'articulation entre la MAAF et son prestataire GEOP. |
+| 13/02/2025 01:56 | GEOP Infos via Docusign | Vous | Rappel pour signature | Non | Un second rappel de Docusign vous est envoyé, vous invitant à finaliser la signature électronique des documents. |
+| 14/02/2025 08:23 | Centre d'expertise Lyon 2 | Vous | Votre dossier sinistre | Chiffrage\_V1.pdf | Le centre d'expertise vous répond et joint à son email une première version du chiffrage détaillé des préjudices liés au sinistre. |
+| 17/02/2025 10:07 | Centre d'expertise Lyon 2 | Vous, GEOP | Chiffrage réactualisé | Chiffrage\_V2.pdf | Le centre d'expertise transmet une version mise à jour du chiffrage à vous ainsi qu'à GEOP pour coordination du dossier. |
+| 18/02/2025 15:25 | CHRISTIAN PAGEZ (GEOP) | Vous | Documents à signer | Attestation\_TVA.pdf, Delegation\_Paiement.pdf | Christian Pagez de GEOP vous envoie directement l'attestation de TVA à taux réduit et le document de délégation de paiement pour signature. |
+| 18/02/2025 15:30 | CHRISTIAN PAGEZ (GEOP) | Vous | Choix Faïence | Non | Dans un second email, Christian Pagez vous demande de procéder au choix de la faïence pour la salle de bain auprès des fournisseurs Point P ou Lapeyre. |
+| 18/02/2025 20:23 | GEOP Infos via Docusign | Vous | Documents complétés | Dossier\_Signe.pdf | Vous recevez une confirmation de Docusign attestant que le processus de signature électronique est terminé et que les documents sont désormais validés. |
+| **Mars 2025** |  |  |  |  |  |
+| 17/03/2025 08:44 | Vous | Mission 25-001508-RLY-M1 | Choix Faïence et questions | Non | Vous informez GEOP de votre choix de faïence et en profitez pour demander des précisions sur le modèle de baignoire et les prochaines étapes du chantier. |
+| 17/03/2025 10:56 | CHRISTIAN PAGEZ (GEOP) | Vous | Relance documents | Non | Christian Pagez vous relance pour obtenir les documents signés, n'ayant visiblement pas encore l'information de la signature via Docusign. |
+| 17/03/2025 10:56 | CHRISTIAN PAGEZ (GEOP) | Vous | RDV Taux d'humidité | Non | Invitation de la part de GEOP pour planifier en ligne un rendez-vous de contrôle technique visant à mesurer le taux d'humidité des murs. |
+| 18/03/2025 10:24 | Vous | Mission 25-001508-RLY-M1 | Re: Les documents | Attestation\_TVA.pdf, Delegation\_Paiement.pdf | En réponse à la relance, vous renvoyez les documents demandés, probablement pour accélérer le traitement du dossier. |
+| 18/03/2025 10:27 | GEOP ASSISTANCE | Vous | Confirmation RDV Humidité | Non | Confirmation formelle du rendez-vous en visioconférence pour effectuer le relevé du taux d'humidité, une étape clé avant de commencer les travaux. |
+| 18/03/2025 10:35 | Vous | Mission 25-001508-RLY-M1 | Re: Les documents | Attestation\_TVA.pdf, Delegation\_Paiement.pdf | Vous clarifiez la situation en précisant que les documents ont déjà été signés via Docusign, et vous les joignez de nouveau pour preuve. |
+| **Avril 2025** |  |  |  |  |  |
+| 22/04/2025 11:15 | Vous | mooss069@gmail.com | (aucun) | Fiche\_Produit\_Faience.pdf | Vous transmettez la fiche technique de la faïence sélectionnée à l'artisan (Mustafa Dogan) pour qu'il puisse passer commande. |
+| **Juin 2025** |  |  |  |  |  |
+| 01/06/2025 12:12 | Maaf.VousEcrit@maaf.fr | Vous | Votre devis assurance habitation | Devis\_MAAF\_Habitation\_v1.pdf | Vous recevez un devis de la part de la MAAF concernant votre contrat d'assurance habitation. |
+| 02/06/2025 09:12 | Maaf Assurances, Service Client | Vous | Signature de votre contrat | Non | Le service client de la MAAF vous envoie un lien pour procéder à la signature électronique de votre nouveau contrat d'assurance. |
+| 02/06/2025 09:14 | Maaf.VousEcrit@maaf.fr | Vous | Votre devis assurance habitation | Devis\_MAAF\_Habitation\_v2.pdf | Réception d'une version actualisée ou alternative du devis pour votre assurance habitation. |
+| 17/06/2025 08:29 | MrMousssssss | Vous | Information RDV | Non | L'artisan vous contacte pour confirmer le RDV du 16/07 et vous informe d'un budget de 450€ pour la baignoire. |
+| 17/06/2025 13:24 | CHRISTIAN PAGEZ (GEOP) | Vous | Choix baignoire | Non | GEOP vous invite à choisir une baignoire chez CEDEO ou Point P, en vous indiquant cette fois un budget alloué de 600€. |
+| 17/06/2025 13:57 | Vous | Mission 25-001508-RLY-M1 | Re: Choix baignoire | Non | Vous écrivez à GEOP pour obtenir des éclaircissements sur la divergence entre le budget annoncé par l'artisan (450€) et celui de GEOP (600€), et pour savoir si ce montant est HT ou TTC. |
+| 27/06/2025 16:26 | Vous | Mission 25-001508-RLY-M1 | TR: Choix baignoire | Non | N'ayant pas reçu de réponse, vous relancez GEOP au sujet de la clarification du budget alloué pour la baignoire. |
+| **Juillet 2025** |  |  |  |  |  |
+| 01/07/2025 10:57 | CHRISTIAN PAGEZ (GEOP) | Vous | Re: TR: Choix baignoire | Non | Christian Pagez répond enfin en détaillant le budget : 600€ pour la baignoire, 300€ pour le mitigeur/douchette et 80€ pour le système de vidange. |
+| 02/07/2025 15:50 | Vous | Mission 25-001508-RLY-M1 | Re: TR: Choix baignoire | Non | Vous demandez confirmation que les montants communiqués sont bien TTC et vous signalez une différence de 100€ par rapport au devis initial, tout en acceptant le principe si le budget global est respecté. |
+| 03/07/2025 10:26 | CHRISTIAN PAGEZ (GEOP) | Vous | Re: TR: Choix baignoire | Non | GEOP confirme que le budget total pour ces fournitures est de 1078€ TTC et que vous pouvez choisir des éléments dont la somme ne dépasse pas ce montant. |
+| 05/07/2025 13:58 | Vous | Mission 25-001508-RLY-M1 | Choix fournitures SDB | Choix\_Fournitures\_SDB.pdf | Vous envoyez à GEOP le document récapitulant votre sélection finale de fournitures pour la salle de bain, basée sur le budget validé. |
+| 07/07/2025 20:02 | Mustafa Dogan | Vous | Report RDV | Non | L'artisan vous informe que le début de l'intervention, initialement prévu, est reporté à la date du 30 juillet. |
+| **Août 2025** |  |  |  |  |  |
+| 01/08/2025 19:46 | Vous | MrMousssssss, PAGEZ, etc. | Report de chantier | Non | Vous adressez un email à l'artisan et aux gestionnaires GEOP pour exprimer votre lassitude face à ce nouveau report de chantier et exigez un engagement écrit sur une date de début ferme. |
+| 01/08/2025 19:46 | ROGLIARDO Jean-Pascal | Vous | Absence du bureau | Non | Réception d'une réponse automatique de Jean-Pascal Rogliardo indiquant son absence du bureau. |
+| 01/08/2025 19:46 | MANCINI Caroline | Vous | (aucun) | Non | Réception d'une réponse automatique d'absence de la part de Caroline Mancini. |
+| 18/08/2025 12:07 | Vous | rhonebatiment@hotmail.com | (aucun) | Choix\_Fournitures\_SDB.pdf | Vous transférez le document de choix des fournitures directement à l'entreprise Rhône Bâtiment pour information et commande. |
+| 18/08/2025 14:54 | Jean-Pascal ROGLIARDO (GEOP) | Vous | Problème fourniture baignoire | Non | GEOP vous informe d'une difficulté d'approvisionnement pour la baignoire choisie et vous demande de la commander vous-même sur Amazon, promettant un remboursement ultérieur. |
+| 18/08/2025 15:28 | Vous | rhonebatiment@hotmail.com | Liens baignoire | Non | Vous envoyez à l'entreprise des liens vers des sites de fournisseurs pour le modèle de baignoire souhaité, afin de faciliter leur recherche. |
+| 18/08/2025 16:00 | Vous | Mission 25-001508-RLY-M1 | Re: Problème fourniture baignoire | Non | Vous répondez à GEOP en exprimant clairement votre mécontentement et votre refus de commander vous-même les fournitures, estimant que cela ne relève pas de votre responsabilité. |
+| 18/08/2025 16:01 | Vous | rhonebatiment@hotmail.com | Fwd: Problème fourniture baignoire | Non | Vous transférez à l'artisan le mail de mécontentement envoyé à GEOP pour le tenir informé de la situation et de votre position. |
+| 18/08/2025 17:31 | Vous | rhonebatiment@hotmail.com | Lien baignoire Cdiscount | Non | Dans une démarche de coopération, vous envoyez un lien Cdiscount pour le modèle de baignoire recherché à l'entreprise de travaux. |
+| **Septembre 2025** |  |  |  |  |  |
+| 03/09/2025 14:56 | LALANDE Lena (GEOP) | Vous | Clôture dossier | Non | GEOP vous notifie de la clôture administrative de votre dossier, arguant d'une absence de retour de votre part pour le suivi post-intervention. |
+| 05/09/2025 19:08 | Vous | Mission 25-001508-RLY-M1 | Re: Clôture dossier | Non | Vous contestez formellement la clôture du dossier, expliquez les raisons de votre silence et refusez la réception des travaux en listant les nombreuses malfaçons constatées. |
+| 08/09/2025 11:55 | SABAH MEHADA (DJADI) (GEOP) | Vous | Réclamation | Non | Le service réclamation de GEOP accuse réception de votre contestation et vous demande de fournir des photographies des dommages et malfaçons. |
+| 08/09/2025 12:25 | Vous | Mission 25-001508-RLY-M1 | Re: Réclamation | Non | Vous envoyez un lien Google Drive contenant les photos des malfaçons et en profitez pour poser des questions techniques sur l'installation (pieds de la baignoire). |
+| 08/09/2025 12:36 | Vous | Mission 25-001508-RLY-M1 | Question BA13 | Non | Vous envoyez une autre question technique concernant l'espace suspect entre la nouvelle cloison en BA13 et le mur extérieur. |
+| 10/09/2025 13:55 | Vous | Mission 25-001508-RLY-M1 | Suite à donner | Non | Face au silence, vous demandez à GEOP un retour écrit détaillant la procédure de reprise des malfaçons, le planning d'intervention et les prochaines étapes. |
+| 11/09/2025 12:27 | BOUHARB HOUSSEM (Rhône Bâtiment) | Vous | Proposition RDV | Non | L'entreprise de travaux vous contacte pour proposer une intervention de retouches le 22 septembre, sans mentionner la nature exacte des travaux. |
+| 11/09/2025 12:47 | Vous | Mission 25-001508-RLY-M1 | Re: Proposition RDV | Non | Vous vous étonnez auprès de GEOP de recevoir une proposition de RDV de l'artisan alors que vos questions de fond restent sans réponse de leur part. |
+| 11/09/2025 12:53 | Vous | BOUHARB HOUSSEM | Re: Proposition RDV | Non | Vous répondez à l'entreprise que vous attendez un plan d'action écrit de la part de GEOP avant d'accepter un quelconque rendez-vous de reprise. |
+| 11/09/2025 12:53 | postmaster@patriarche.fr | Vous | Delivery Status Notification (Failure) | Non | Notification d'échec de la distribution de votre mail précédent à l'adresse de Baptiste Gey (probablement en copie). |
+| 11/09/2025 12:59 | BOUHARB HOUSSEM | Vous | Re: Proposition RDV | Non | L'entreprise insiste pour que vous donniez simplement vos disponibilités pour l'intervention de retouches. |
+| 11/09/2025 13:36 | Vous | BOUHARB HOUSSEM | Re: Proposition RDV | Non | Vous réitérez votre position, en rappelant l'ampleur des dégâts (sol, peinture) et la nécessité de savoir précisément quels travaux seront effectués. |
+| 11/09/2025 13:45 | BOUHARB HOUSSEM | Vous | Re: Proposition RDV | Non | L'entreprise affirme que le planning est de son ressort et vous presse de donner vos disponibilités pour organiser l'intervention. |
+| 11/09/2025 14:20 | Vous | BOUHARB HOUSSEM | Re: Proposition RDV | Non | Vous concluez l'échange en soulignant que c'est vous qui subissez la situation et que le manque d'information n'est pas acceptable. |
+| 12/09/2025 14:50 | MAAF Ne pas répondre | Vous | Votre demande RC | Non | Accusé de réception automatique de la MAAF pour une demande concernant la responsabilité civile. |
+| 12/09/2025 14:50 | MAAF Ne pas répondre | Vous | (aucun) | Non | Réception d'un email automatique de la MAAF sans contenu visible. |
+| 12/09/2025 14:50 | MAAF Ne pas répondre | Vous | (aucun) | Non | Réception d'un second email automatique vide de la part de la MAAF. |
+| 12/09/2025 15:38 | SABAH MEHADA (DJADI) (GEOP) | Vous | Prise en charge dossier | Non | GEOP vous confirme officiellement la prise en charge de votre réclamation et vous informe qu'un rendez-vous d'expertise sera programmé. |
+| 12/09/2025 18:18 | Jérôme GELIN (GEOP) | Vous | RDV SAV | Non | Jérôme Gelin de GEOP vous contacte pour confirmer la tenue d'un rendez-vous de service après-vente le 15/09 pour constater les malfaçons. |
+| 12/09/2025 19:03 | MAAF Ne pas répondre | Vous | Votre réclamation | Non | Accusé de réception formel de la MAAF confirmant que votre réclamation sur le sinistre "dégât des eaux" a bien été enregistrée. |
+| 15/09/2025 15:34 | Jérôme GELIN (GEOP) | Vous | Compte rendu réunion de contrôle | CR\_Reunion\_150925.pdf | Suite au rendez-vous, Jérôme Gelin vous transmet le compte-rendu de la réunion de contrôle qui a eu lieu le matin même. |
+| **Octobre 2025** |  |  |  |  |  |
+| 07/10/2025 16:53 | Jérôme GELIN (GEOP) | Vous | Relance suite compte rendu | Non | N'ayant pas eu de retour de votre part, Jérôme Gelin vous relance concernant les actions à entreprendre suite au compte-rendu du 15/09. |
+| 08/10/2025 12:32 | BOUHARB HOUSSEM | Vous | Travaux | Non | L'entreprise Rhône Bâtiment revient vers vous pour vous proposer de nouvelles dates d'intervention pendant les vacances scolaires de la Toussaint. |
+| 10/10/2025 13:50 | Jérôme GELIN (GEOP) | Vous | Relance compte rendu | Non | Seconde relance de Jérôme Gelin, insistant sur la nécessité de valider le compte-rendu et de planifier l'intervention de reprise des travaux. |
+

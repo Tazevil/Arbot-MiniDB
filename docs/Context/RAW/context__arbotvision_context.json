@@ -1,0 +1,246 @@
+{
+  "dossier": {
+    "affaire_ref": "25-001508-RLY-M1:contentReference[oaicite:0]{index=0}",
+    "lieu": "Appartement 2ᵉ étage, 123 rue Château Gaillard, 69100 Villeurbanne, FR:contentReference[oaicite:1]{index=1}"
+  },
+  "dates": {
+    "sinistre_observation_date": "2024-07-21:contentReference[oaicite:2]{index=2}",
+    "debut_travaux": "2025-08-18:contentReference[oaicite:3]{index=3}",
+    "fin_travaux": "2025-08-29:contentReference[oaicite:4]{index=4}",
+    "equivalent_jours": 5.5
+  },
+  "zones": {
+    "salle_de_bains": "3.25 m²",
+    "wc": "1.11 m²"
+  },
+  "assurance": {
+    "assureur": "MAAF Assurances:contentReference[oaicite:5]{index=5}",
+    "produit": "Habitation Tempo"
+  },
+  "intervenants": [
+    {
+      "nom": "MAAF Assurances",
+      "rôle": "Assureur",
+      "coordonnées": {}
+    },
+    {
+      "nom": "GEOP Assistance",
+      "rôle": "Assisteur (gestionnaire de réparation en nature)",
+      "coordonnées": {
+        "téléphone": "01 46 10 42 42:contentReference[oaicite:6]{index=6}",
+        "email": "infos@geop-assistance.com"
+      }
+    },
+    {
+      "nom": "Centre d'expertise Lyon 2",
+      "rôle": "Expert (partenaire assurance)",
+      "contact": "M. Djahïd AZRINE:contentReference[oaicite:7]{index=7}",
+      "coordonnées": {
+        "email": "ce.lyon2@centre-expertise.com",
+        "téléphone": "04 37 47 81 65:contentReference[oaicite:8]{index=8}"
+      }
+    },
+    {
+      "nom": "Rhône Bâtiment",
+      "rôle": "Entreprise exécutante finale (tous corps d'état)",
+      "coordonnées": {
+        "email": "rhonebatiment@hotmail.com:contentReference[oaicite:9]{index=9}",
+        "téléphone": "06 81 14 68 50:contentReference[oaicite:10]{index=10}"
+      }
+    },
+    {
+      "nom": "(Entreprise initiale) Mustafa Dogan",
+      "rôle": "Entrepreneur initial (remplacé en août 2025)",
+      "coordonnées": {
+        "email": "mooss069@gmail.com:contentReference[oaicite:11]{index=11}",
+        "téléphone": "06 51 70 34 57"
+      }
+    }
+  ],
+  "chiffrage": {
+    "source": "Centre d’expertise Lyon 2 (entête GEOP):contentReference[oaicite:12]{index=12}",
+    "montant_sous_total": "4 831,84 €",
+    "mission_ref": "2024-12-00029275:contentReference[oaicite:13]{index=13}"
+  },
+  "documents": [
+    "Rapport d’expertise et chiffrage (pdf) – éval. 4 287,06 € TTC:contentReference[oaicite:14]{index=14} (Centre d’expertise Lyon 2, 14/02/2025)",
+    "Bon de commande travaux (pdf) – réf. CH01-CD001-V1:contentReference[oaicite:15]{index=15} (GEOP Assistance, 26/03/2025)",
+    "Facture des travaux (pdf) – montant 4 831,84 €:contentReference[oaicite:16]{index=16} (Rhône Bâtiment, 29/08/2025)"
+  ],
+  "chronologie": [
+    {
+      "date": "2024-07-21",
+      "type": "sinistre_observe",
+      "description": "M. Gouverneur constate des traces d’humidité et un décollement de faïences dans sa salle de bains:contentReference[oaicite:17]{index=17}."
+    },
+    {
+      "date": "2024-08-02",
+      "type": "recherche_fuite",
+      "description": "Recherche de fuite effectuée par la société **FUITE SOLUTIONS**:contentReference[oaicite:18]{index=18}."
+    },
+    {
+      "date": "2024-08-02",
+      "type": "recherche_fuite_conclusions",
+      "description": "Les fuites sont localisées dans la salle de bains de l’appartement du 3<sup>e</sup> étage (chez M. Lopez) : joints silicone de baignoire défectueux, raccords de mitigeur fuyards, faïence fissurée et fuite sur le vidage de la vasque:contentReference[oaicite:19]{index=19}."
+    },
+    {
+      "date": "2025-01-23",
+      "type": "prise_en_charge",
+      "description": "Dossier confié à **GEOP Assistance** pour gestion de la réparation en nature (visite d’expertise sur site le 23/01/2025):contentReference[oaicite:20]{index=20}."
+    },
+    {
+      "date": "2025-02-03",
+      "type": "rendez_vous",
+      "description": "Rendez-vous d’estimation des travaux (entretien visio avec GEOP) ; recueil des informations pour chiffrage:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}."
+    },
+    {
+      "date": "2025-02-14",
+      "type": "chiffrage",
+      "description": "Rapport d’expertise transmis – montant estimé **4 287,06 € TTC** pour la remise en état:contentReference[oaicite:23]{index=23}. MAAF propose soit une indemnisation financière (3 806,62 € immédiats + 480,44 € après factures), soit une réparation en nature via son partenaire:contentReference[oaicite:24]{index=24}."
+    },
+    {
+      "date": "2025-02-18",
+      "type": "administratif",
+      "description": "MAAF donne son accord pour les travaux:contentReference[oaicite:25]{index=25}. L’assuré signe le jour même les documents (mandat) via DocuSign:contentReference[oaicite:26]{index=26}."
+    },
+    {
+      "date": "2025-03-17",
+      "type": "relance",
+      "description": "E-mail de relance GEOP : en attente du retour des documents signés pour pouvoir engager les travaux:contentReference[oaicite:27]{index=27}."
+    },
+    {
+      "date": "2025-03-18",
+      "type": "administratif",
+      "description": "L’assuré confirme que les documents ont été signés le 18/02 et les renvoie en pièce jointe par email:contentReference[oaicite:28]{index=28}."
+    },
+    {
+      "date": "2025-03-26",
+      "type": "administratif",
+      "description": "GEOP émet le **bon de commande** des travaux à l’entreprise partenaire initiale (Mustafa Dogan):contentReference[oaicite:29]{index=29}."
+    },
+    {
+      "date": "2025-07-03",
+      "type": "devis",
+      "description": "Courriel GEOP : budget alloué de **1 078 € TTC** pour les fournitures sanitaires de la salle de bains:contentReference[oaicite:30]{index=30}."
+    },
+    {
+      "date": "2025-07-05",
+      "type": "choix_fournitures",
+      "description": "L’assuré transmet la liste de ses **choix de fournitures** SDB (baignoire *Jakob Delafon*, mitigeur *Grohe*, vidage extra-plat, barre de douche) dans le respect du budget:contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}."
+    },
+    {
+      "date": "2025-07-07",
+      "type": "report_annonce",
+      "description": "L’entreprise initiale (M. Dogan) informe que le début des travaux, initialement prévu mi-juillet, est **décalé au 30/07/2025**:contentReference[oaicite:33]{index=33}."
+    },
+    {
+      "date": "2025-07-30",
+      "type": "planning_cible",
+      "description": "Date cible initiale de démarrage de chantier (**30/07/2025 à 8h30**) – Intervention reportée en raison de délais d’approvisionnement:contentReference[oaicite:34]{index=34}."
+    },
+    {
+      "date": "2025-07-29",
+      "type": "report_annonce",
+      "description": "La veille du démarrage prévu, GEOP annonce par téléphone un **nouveau report** du chantier en raison d’un problème de livraison de matériel:contentReference[oaicite:35]{index=35}."
+    },
+    {
+      "date": "2025-08-18",
+      "type": "travaux_debut",
+      "description": "**Début des travaux** de réparation (démolition/reprise salle de bains):contentReference[oaicite:36]{index=36}. Un problème de fourniture survient : la baignoire livrée n’est pas le modèle choisi.",
+      "source_id": "JP Rogliardo email 18/08"
+    },
+    {
+      "date": "2025-08-18",
+      "type": "litige",
+      "description": "L’assuré exprime sa colère face aux retards et à l’**incompétence** perçue de GEOP (chantier repoussé \"2 fois\" et encore du matériel manquant):contentReference[oaicite:37]{index=37}:contentReference[oaicite:38]{index=38}."
+    },
+    {
+      "date": "2025-08-18",
+      "type": "sav",
+      "description": "GEOP propose à l’assuré de commander lui-même la baignoire sur internet (523,90 €) pour gagner du temps, somme qui sera remboursée sur facture:contentReference[oaicite:39]{index=39}."
+    },
+    {
+      "date": "2025-08-29",
+      "type": "travaux_fin",
+      "description": "**Fin des travaux** de remise en état (SDB ~3,3 m² et WC ~1,1 m²). L’intervention de réparation initiale est terminée à cette date:contentReference[oaicite:40]{index=40}."
+    },
+    {
+      "date": "2025-09-03",
+      "type": "administratif",
+      "description": "MAAF confirme la **fin des travaux** et invite l’assuré à donner son avis sur la réparation. La facture de l’intervention est mise à disposition:contentReference[oaicite:41]{index=41}:contentReference[oaicite:42]{index=42}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "sav",
+      "description": "Rhône Bâtiment (Mme Rostingt, assistante) reprend contact et propose un **RDV de retouches** le lundi 22 septembre 2025 afin de corriger les malfaçons constatées:contentReference[oaicite:43]{index=43}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "litige",
+      "description": "L’assuré indique attendre de GEOP un compte-rendu écrit détaillant la suite des actions avant de programmer les retouches:contentReference[oaicite:44]{index=44}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "litige",
+      "description": "Rhône Bâtiment insiste sur le fait qu’il lui faut une date pour planifier les reprises, **\"le planning des travaux est de mon ressort\"**, en se démarquant des problèmes avec GEOP:contentReference[oaicite:45]{index=45}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "litige",
+      "description": "L’assuré, excédé, refuse d’\"avoir à nouveau des surprises\" : il exige de connaître précisément ce qui est prévu et combien de temps les retouches vont prendre, afin de s’organiser (sa femme et sa fille rentrant de vacances le 20/08):contentReference[oaicite:46]{index=46}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "litige",
+      "description": "Rhône Bâtiment (Mme Rostingt) répond que **la planification lui incombe** et redemande les disponibilités de l’assuré pour envoyer une équipe finir le chantier au plus tôt:contentReference[oaicite:47]{index=47}."
+    },
+    {
+      "date": "2025-09-11",
+      "type": "litige",
+      "description": "L’assuré fustige le manque de « décence » et de communication : *« je ne sais pas ce que vous avez prévu de faire, ni comment ni pour combien de temps… »* – il reproche d’être tenu à l’écart des informations sur les travaux de retouche:contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}."
+    },
+    {
+      "date": "2025-09-12",
+      "type": "sav",
+      "description": "GEOP (J. GELIN) confirme la tenue d’une **réunion de contrôle** le 15/09/2025 à 10h30 sur site, en présence de l’assuré et des intervenants concernés:contentReference[oaicite:50]{index=50}."
+    },
+    {
+      "date": "2025-09-15",
+      "type": "compte_rendu",
+      "description": "**Réunion de contrôle sur site.** Un **compte-rendu détaillé** est dressé par l’expert : en salle de bains, baignoire mal calée, mitigeur mal posé, découpes de faïence à refaire, ventilations à corriger, finitions autour de la fenêtre et de la porte à reprendre, etc. Dans les WC, porte de placard à refixer, retouches d’enduit/peinture, cuvette WC ayant bougé (coffrage à renforcer), etc.:contentReference[oaicite:51]{index=51}:contentReference[oaicite:52]{index=52}"
+    },
+    {
+      "date": "2025-09-15",
+      "type": "report_annonce",
+      "description": "Il est convenu que les travaux de **retouches** seront effectués pendant les **vacances de la Toussaint** (fin octobre 2025), pour une durée estimée d’environ une semaine:contentReference[oaicite:53]{index=53}."
+    },
+    {
+      "date": "2025-10-07",
+      "type": "relance",
+      "description": "E-mail de relance : sans réponse de l’assuré au compte-rendu du 15/09, GEOP ne peut valider les points vus en réunion ni planifier la nouvelle intervention:contentReference[oaicite:54]{index=54}."
+    },
+    {
+      "date": "2025-10-10",
+      "type": "relance",
+      "description": "Nouvelle relance GEOP : l’assuré avait demandé une intervention pendant Toussaint, mais sans retour de sa part, cette **possibilité pourrait ne plus être garantie**:contentReference[oaicite:55]{index=55}."
+    },
+    {
+      "date": "2025-10-15",
+      "type": "administratif",
+      "description": "MAAF (gestion indemnisation) transmet de nouvelles **pièces jointes** relatives au dossier par email:contentReference[oaicite:56]{index=56} (courrier de suivi ou documents de clôture)."
+    }
+  ],
+  "questions_ouvertes": [
+    "Quelle est la **dénomination officielle de l’entreprise initiale** (Mustafa Dogan) ? (Non renseignée dans les échanges):contentReference[oaicite:57]{index=57}",
+    "La **copie du constat amiable** de dégât des eaux (signé en juillet 2024) n’a pas été trouvée dans les sources fournies.",
+    "La **date exacte des retouches de fin 2025** (réparations de reprise pendant la Toussaint 2025) n’est pas confirmée dans les emails (planifiées mais pas de compte-rendu d’exécution trouvé).",
+    "Le **produit d’assurance** (contrat Habitation Tempo) n’est pas mentionné explicitement dans les échanges fournis."
+  ],
+  "entretien_log": {
+    "timestamp": "2025-10-22 01:58:04",
+    "sources_agrégées": [
+      "Gmail – gouverneurvincent@gmail.com (mails du 2024-08-01 au 2025-10-15, filtres appliqués)",
+      "Pièces jointes PDF/DOCX extraites des emails (rapports, devis, etc.)"
+    ]
+  }
+}

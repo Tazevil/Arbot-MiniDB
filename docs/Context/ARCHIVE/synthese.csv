@@ -1,0 +1,11 @@
+Période,NbAppels,NbSMS,NbEmails,NbIncohérences,TempsSilenceMoyen,TauxRelance,PointsJalons,DernièreMAJ
+Janvier 2025,2,0,2,0,7,100,"Prise en charge initiale, documents administratifs",2025-10-24
+Février 2025,1,0,2,1,5,50,"Relances documents, codes signature",2025-10-24
+Mars 2025,1,0,1,1,14,100,Relance documents déjà transmis,2025-10-24
+Avril 2025,3,1,2,2,8,67,Première discorde budgétaire Dogan,2025-10-24
+Mai 2025,2,1,0,1,12,50,Confusion budgétaire GEOP/Dogan,2025-10-24
+Juin 2025,1,4,0,0,49,100,49 jours de silence total,2025-10-24
+Juillet 2025,2,0,0,1,1,100,"Rupture contrat Dogan, substitution Rhône",2025-10-24
+Août 2025,3,4,1,2,4,75,"Arrivée Rhône Bâtiment, blocage baignoire",2025-10-24
+Septembre 2025,3,2,2,3,12,83,"Clôture prématurée, expertise Gelin",2025-10-24
+Octobre 2025,0,0,0,1,30,0,Suivi post-litige en cours,2025-10-24

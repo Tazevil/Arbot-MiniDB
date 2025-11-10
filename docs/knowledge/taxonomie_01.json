@@ -1,0 +1,55 @@
+{
+  "taxonomie": {
+    "lots": [
+      "Gros œuvre / démolition",
+      "Plomberie / sanitaire",
+      "Électricité / éclairage / ventilation",
+      "Revêtements murs & sols",
+      "Étanchéité / protection à l’eau",
+      "Menuiserie / mobilier",
+      "Serrurerie / quincaillerie",
+      "Finitions / accessoires / aménagements"
+    ],
+    "ouvrages": [
+      "Réseau alimentation / distribution eau",
+      "Réseau évacuation / assainissement",
+      "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+      "Receveur de douche / bac",
+      "Membrane / barrière d’humidité / SPEC",
+      "Carrelage mural / sol",
+      "Plinthes / seuils / bavettes",
+      "Joints périphériques / mastic sanitaire",
+      "Robinetterie, bondes, trop-plein",
+      "Éclairage, prises, appareillage électrique",
+      "Ventilation (gaine, extracteur)",
+      "Mobilier vasque, miroir, colonne",
+      "Cloison / doublage en zone humide"
+    ],
+    "fonctions": [
+      "Apporter eau froide / eau chaude",
+      "Évacuer eaux usées / eaux vannes",
+      "Assurer l’étanchéité aux projections",
+      "Support de revêtement",
+      "Stabilité mécanique",
+      "Continuité d’étanchéité aux jonctions",
+      "Intégration robinetterie / raccords",
+      "Ergonomie / accessibilité",
+      "Éclairage",
+      "Ventilation / extraction d’humidité",
+      "Entretien / maintenance",
+      "Finition esthétique"
+    ],
+    "types_exigence": [
+      "prescription_normative",
+      "performance_chiffrée",
+      "mise_en_œuvre",
+      "tolérance / contrôle",
+      "maintenance / durabilité"
+    ]
+  },
+  "metadonnees": {
+    "version": "v1.0",
+    "date_iso": "2025-10-24",
+    "perimetre": "France"
+  }
+}

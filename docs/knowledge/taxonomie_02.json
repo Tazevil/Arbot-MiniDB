@@ -1,0 +1,1037 @@
+[
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Cuivre écroui/recuit"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "PER BAO"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Multicouche PE-RT/Al/PE-RT"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "À sertir"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "À compression"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Brasés"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Vannes quart de tour"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "ROAI"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Collecteur laiton"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Collecteur inox"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Manchons élastomère"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Distribution EF/EC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "PE réticulé"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Bouclage ECS (si présent)",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Pompe bouclage"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Bouclage ECS (si présent)",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Clapet anti-retour"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Bouclage ECS (si présent)",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Vanne d'équilibrage"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Bouclage ECS (si présent)",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "TMV NF"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Attentes et traversées de cloison",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Boîte d’encastrement EF/EC"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Attentes et traversées de cloison",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Sortie murale 1/2''"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Attentes et traversées de cloison",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Manchon SPEC"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau alimentation / distribution eau",
+    "fonctions": "Attentes et traversées de cloison",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Passe-paroi"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "PVC NF série BD/CR8"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "PP acoustique"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Coudes 87°30"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Tés 45°"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Manchons"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Siphon extra-plat"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Siphon bouteille"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Collecte EU/EV",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Colliers isophoniques"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Ventilation primaire/secondaire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Prolongateur en toiture"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Ventilation primaire/secondaire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Soupape aération (si admis)"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Évacuation douche/baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bonde Ø90 douche"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Évacuation douche/baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bonde Ø52 baignoire"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Évacuation douche/baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Câble 80 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Réseau évacuation / assainissement",
+    "fonctions": "Évacuation douche/baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Trop-plein réglable ±5 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Goujons/tiges ≥8–10 mm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bâti-support vasque"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Mitigeur DN15"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Vidage clic-clac"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bouteille chromé"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Lavabo/vasque",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Design court"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "WC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Châssis autoportant"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "WC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Réservoir encastré"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "WC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Céramique sortie horizontale"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "WC",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Abattant frein de chute"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Acrylique"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Acier émaillé"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Pieds réglables 9–12 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Support périphérique"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Ensemble extra-plat"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Baignoire",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Trop-plein réglable"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Douche",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Receveur céramique"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Douche",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Receveur résine"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Douche",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bonde Ø90"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Appareils sanitaires (lavabo, WC, baignoire, douche)",
+    "fonctions": "Douche",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Siphon bas"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Receveur de douche / bac",
+    "fonctions": "Implantation et périphérie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Fond de joint mousse"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Receveur de douche / bac",
+    "fonctions": "Implantation et périphérie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Mastic sanitaire"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Receveur de douche / bac",
+    "fonctions": "Implantation et périphérie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Mortier maigre"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Receveur de douche / bac",
+    "fonctions": "Implantation et périphérie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Pieds/plots réglables"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection murs",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Primaire + résine"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection murs",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bande d’angle"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection murs",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Relevé ≥10 cm sol"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection murs",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Recouvrement bandes ≥5 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection sols",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "SPEC P3"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection sols",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Membrane liquide"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Membrane / barrière d’humidité / SPEC",
+    "fonctions": "Protection sols",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Cordon mastic chape flottante"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Support et planéité",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Enduit P3"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Support et planéité",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Ragréage autolissant"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Support et planéité",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "BA13 H1"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Support et planéité",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Ciment fibre"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Collage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "C2-S1"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Collage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "C2-S2"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Collage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "≥90 % surface couverte"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "CG2"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "RG"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Profilé alu/inox"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Carrelage mural / sol",
+    "fonctions": "Joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Cornieres"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Plinthes / seuils / bavettes",
+    "fonctions": "Traitement bas de paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Pièces spéciales"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Plinthes / seuils / bavettes",
+    "fonctions": "Traitement bas de paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Coupe biseautée"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Plinthes / seuils / bavettes",
+    "fonctions": "Traitement bas de paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Nez de seuil"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Plinthes / seuils / bavettes",
+    "fonctions": "Traitement bas de paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Profilé de transition"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Joints périphériques / mastic sanitaire",
+    "fonctions": "Interfaces appareil-paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Mousse PE"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Joints périphériques / mastic sanitaire",
+    "fonctions": "Interfaces appareil-paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Silicone acétique/NE"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Joints périphériques / mastic sanitaire",
+    "fonctions": "Interfaces appareil-paroi",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Cartouche fongicide"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Robinetterie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "EN 817"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Robinetterie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Limiteur de débit"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Robinetterie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Rosaces étanches"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Robinetterie",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Excentriques"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Vidages",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Câble 80 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Vidages",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Trop-plein ±5 cm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Vidages",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Grille inox"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Robinetterie, bondes, trop-plein",
+    "fonctions": "Vidages",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Clapet push"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Éclairage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "IPx4 zone 2"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Éclairage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "IPx5 si douche exposée"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Éclairage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Disjoncteur + DDR 30 mA"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Éclairage",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Classe II"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Prises et commandes",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Hors volumes ou IP adapté"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Prises et commandes",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Schuko 16A"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Prises et commandes",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Commande hors volume 1/2"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Éclairage, prises, appareillage électrique",
+    "fonctions": "Prises et commandes",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Poussoir étanche"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Ventilation (gaine, extracteur)",
+    "fonctions": "Extraction ponctuelle",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Hygroréglable"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Ventilation (gaine, extracteur)",
+    "fonctions": "Extraction ponctuelle",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Temporisé"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Ventilation (gaine, extracteur)",
+    "fonctions": "Extraction ponctuelle",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "PVC souple/rigide"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Ventilation (gaine, extracteur)",
+    "fonctions": "Extraction ponctuelle",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Clapet anti-retour"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Mobilier vasque, miroir, colonne",
+    "fonctions": "Fixation et protections",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Chevilles adaptées support"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Mobilier vasque, miroir, colonne",
+    "fonctions": "Fixation et protections",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Tiges filetées"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Mobilier vasque, miroir, colonne",
+    "fonctions": "Fixation et protections",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Rebord anti-éclaboussure"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Mobilier vasque, miroir, colonne",
+    "fonctions": "Fixation et protections",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Traitement chants"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Parois et ossatures",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "H1 EB+"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Parois et ossatures",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Parement ciment"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Parois et ossatures",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Vis tête trompette"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Parois et ossatures",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Entraxe ≤300 mm"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Traitement des joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Enduit à l’eau"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Traitement des joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "Bande armée"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Traitement des joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "T ≥ +5 °C"
+  },
+  {
+    "lots": "Lot Bâtiment Second Oeuvre",
+    "ouvrages": "Cloison / doublage en zone humide",
+    "fonctions": "Traitement des joints",
+    "types_exigence": "Exigence de Produit",
+    "norme": "N/A",
+    "édition": "N/A",
+    "application": "HR contrôlée"
+  }
+]
