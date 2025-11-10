@@ -1,0 +1,11 @@
+{
+  "module": "kb.map",
+  "version": "1.0.0",
+  "articles_validated": "./json/articles_validated.jsonl",
+  "clauses_validated_exhaustive": "./json/clauses_validated.jsonl",
+  "clauses_full": "./json/clauses_full.jsonl",
+  "index_keywords": "./json/index_keywords.jsonl",
+  "defaut_auto_map": "./json/defaut_auto_map.jsonl",
+  "ontology_enriched": "./json/ontology.enriched.json",
+  "ontology_validated": "./json/ontology.validated.json"
+}

@@ -1,0 +1,3 @@
+INGESTION
+Checklist: chemins, filtres, inventaire, compteurs, schemas.
+Sortie: urn:arbot:schema:ingestion_step:1.0.0

@@ -1,0 +1,28 @@
+{
+  "module": "pipeline.sequence",
+  "version": "1.0.0",
+  "sequence": [
+    "BOOT",
+    "INGESTION",
+    "VISION_ANALYSIS",
+    "DEFECT_DETECTION",
+    "NORM_REFERENCE_LINK",
+    "CONTEXT_INTEGRATION",
+    "HYPER_GRAVITY",
+    "CAUSALITY_INFERENCE",
+    "JSON_VALIDATION",
+    "REPORTING"
+  ],
+  "defaults_active": {
+    "BOOT": true,
+    "INGESTION": true,
+    "VISION_ANALYSIS": true,
+    "DEFECT_DETECTION": true,
+    "NORM_REFERENCE_LINK": true,
+    "CONTEXT_INTEGRATION": false,
+    "HYPER_GRAVITY": true,
+    "CAUSALITY_INFERENCE": false,
+    "JSON_VALIDATION": true,
+    "REPORTING": false
+  }
+}

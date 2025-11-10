@@ -1,0 +1,32 @@
+{
+  "module": "runtime.paths_filters",
+  "version": "1.0.0",
+  "paths": {
+    "root": ".",
+    "photos_dir": "./images",
+    "docs_dir": "./docs/Normes",
+    "tables_dir": "./docs/Context/ARCHIVE",
+    "kb_root": "./json"
+  },
+  "filters": {
+    "images_ext": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".webp",
+      ".tif",
+      ".tiff",
+      ".bmp",
+      ".heic",
+      ".heif"
+    ],
+    "docs_ext": [
+      ".pdf",
+      ".docx"
+    ],
+    "tables_ext": [
+      ".xlsx",
+      ".csv"
+    ]
+  }
+}

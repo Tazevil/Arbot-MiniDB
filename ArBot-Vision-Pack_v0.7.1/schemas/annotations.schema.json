@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:annotations:1.1.1",
+  "$anchor": "annotation",
+  "title": "ArBot Annotations Schema",
+  "version": "1.1.1",
+  "type": "object",
+  "required": [
+    "id_defaut",
+    "categorie",
+    "type_defaut",
+    "origin_layer",
+    "gravite_technique",
+    "polygons_norm"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id_defaut": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+_[A-Za-z0-9_-]+_D\\d{2}$"
+    },
+    "categorie": {
+      "type": "string",
+      "enum": [
+        "ETANCHEITE",
+        "PLOMBERIE",
+        "CARRELAGE",
+        "STRUCTURE",
+        "MENUISERIE",
+        "CVC",
+        "ELECTRICITE",
+        "AUTRE"
+      ]
+    },
+    "type_defaut": {
+      "type": "string"
+    },
+    "origin_layer": {
+      "type": "string",
+      "enum": [
+        "SURFACE",
+        "SUPPORT",
+        "STRUCTUREL",
+        "INFRA"
+      ]
+    },
+    "gravite_technique": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "polygons_norm": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 30,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            },
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            }
+          ]
+        }
+      },
+      "description": "Polygones fermes prioritaires."
+    },
+    "polylines_norm": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 30,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            },
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            }
+          ]
+        }
+      },
+      "description": "Fallback optionnel si polygons_norm < 2."
+    },
+    "mask_polygon_norm": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 100,
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            },
+            {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "multipleOf": 0.0001
+            }
+          ]
+        }
+      }
+    },
+    "style": {
+      "type": "string",
+      "enum": [
+        "CRITIQUE",
+        "MAJEUR",
+        "MINEUR",
+        "INFO"
+      ]
+    },
+    "incertitude": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "regle_ref": {
+      "type": "object",
+      "required": [
+        "doc_id",
+        "source_page",
+        "article_id"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string"
+        },
+        "source_page": {
+          "type": "string"
+        },
+        "article_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "x_extensions": {
+      "type": "object"
+    }
+  }
+}

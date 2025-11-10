@@ -1,0 +1,3 @@
+VISION_ANALYSIS
+Checklist: core actif, mode, high_gravity, annotations conformes, frames exhaustifs.
+Sortie: urn:arbot:schema:vision_analysis:1.0.0

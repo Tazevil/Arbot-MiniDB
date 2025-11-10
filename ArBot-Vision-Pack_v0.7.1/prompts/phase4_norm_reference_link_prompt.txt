@@ -1,0 +1,3 @@
+NORM_REFERENCE_LINK
+Checklist: defaut_auto_map, citations completes {doc_id,source_file,source_page,article_id}.
+Sortie: liens norme par defaut

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arbot:schema:vision_analysis:1.0.0",
+  "$anchor": "visionAnalysis",
+  "title": "ArBot Vision Analysis",
+  "type": "object",
+  "required": [
+    "step",
+    "active",
+    "skipped",
+    "status",
+    "inputs",
+    "outputs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "step": {
+      "type": "string",
+      "const": "VISION_ANALYSIS"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "skipped": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success",
+        "error"
+      ]
+    },
+    "inputs": {
+      "type": "object"
+    },
+    "outputs": {
+      "type": "object"
+    }
+  }
+}

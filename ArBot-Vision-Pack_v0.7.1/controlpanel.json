@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.7.1",
+  "generated_at": "2025-11-11T00:13:15.890184Z",
+  "modules": {
+    "runtime_paths_filters": "./modules/runtime.paths_filters.json",
+    "kb_map": "./modules/kb.map.json",
+    "pipeline_sequence": "./modules/pipeline.sequence.json"
+  },
+  "paths_filters": {
+    "module": "runtime.paths_filters",
+    "version": "1.0.0",
+    "paths": {
+      "root": ".",
+      "photos_dir": "./images",
+      "docs_dir": "./docs/Normes",
+      "tables_dir": "./docs/Context/ARCHIVE",
+      "kb_root": "./json"
+    },
+    "filters": {
+      "images_ext": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".webp",
+        ".tif",
+        ".tiff",
+        ".bmp",
+        ".heic",
+        ".heif"
+      ],
+      "docs_ext": [
+        ".pdf",
+        ".docx"
+      ],
+      "tables_ext": [
+        ".xlsx",
+        ".csv"
+      ]
+    }
+  },
+  "kb": {
+    "module": "kb.map",
+    "version": "1.0.0",
+    "articles_validated": "./json/articles_validated.jsonl",
+    "clauses_validated_exhaustive": "./json/clauses_validated.jsonl",
+    "clauses_full": "./json/clauses_full.jsonl",
+    "index_keywords": "./json/index_keywords.jsonl",
+    "defaut_auto_map": "./json/defaut_auto_map.jsonl",
+    "ontology_enriched": "./json/ontology.enriched.json",
+    "ontology_validated": "./json/ontology.validated.json"
+  },
+  "pipeline": {
+    "module": "pipeline.sequence",
+    "version": "1.0.0",
+    "sequence": [
+      "BOOT",
+      "INGESTION",
+      "VISION_ANALYSIS",
+      "DEFECT_DETECTION",
+      "NORM_REFERENCE_LINK",
+      "CONTEXT_INTEGRATION",
+      "HYPER_GRAVITY",
+      "CAUSALITY_INFERENCE",
+      "JSON_VALIDATION",
+      "REPORTING"
+    ],
+    "defaults_active": {
+      "BOOT": true,
+      "INGESTION": true,
+      "VISION_ANALYSIS": true,
+      "DEFECT_DETECTION": true,
+      "NORM_REFERENCE_LINK": true,
+      "CONTEXT_INTEGRATION": false,
+      "HYPER_GRAVITY": true,
+      "CAUSALITY_INFERENCE": false,
+      "JSON_VALIDATION": true,
+      "REPORTING": false
+    }
+  },
+  "project_stats": {
+    "images_count": 94,
+    "documents_count": 16,
+    "analysis_results": "docs/To validate/ArBot-Core,_v1.4_OUT_JSON"
+  }
+}

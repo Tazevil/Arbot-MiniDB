@@ -1,0 +1,3 @@
+DEFECT_DETECTION
+Checklist: aggregation detections->defauts, id_defaut, categorie, origin_layer, gravite. Fallback polylines si <2 polygones.
+Sortie: structure pour DEF_ALL

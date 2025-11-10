@@ -1,0 +1,4318 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "generated_at": "2025-11-11T00:07:17.223375"
+  },
+  "DEF_ALL": [
+    {
+      "id_defaut": "0001_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0001_SDB_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0001_D02",
+      "categorie": "finition",
+      "type_defaut": "propreté/préparation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0001_SDB_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0002_D01",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité/dommage sur existant",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "0002_SDB_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "0002_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface/infiltration",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0002_SDB_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0002_D03",
+      "categorie": "finition",
+      "type_defaut": "propreté/préparation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0002_SDB_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0003_D01",
+      "categorie": "finition",
+      "type_defaut": "propreté/protection",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0003_SALON-PROTECTION_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0003_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0003_SALON-PROTECTION_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0004_D01",
+      "categorie": "finition",
+      "type_defaut": "propreté/protection",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0004_SALON-PROTECTION_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0005_D01",
+      "categorie": "platrerie",
+      "type_defaut": "esthétique",
+      "origin_layer": "platrerie",
+      "gravite_technique": 3,
+      "image_ref": "0005_WC_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0005_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0005_WC_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0005_D03",
+      "categorie": "finition",
+      "type_defaut": "propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0005_WC_GEN_20250818.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0006_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface/infiltration",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0006_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0006_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0006_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0006_D03",
+      "categorie": "électricité",
+      "type_defaut": "non-conformité traversée",
+      "origin_layer": "électricité",
+      "gravite_technique": 2,
+      "image_ref": "0006_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "0006_D04",
+      "categorie": "platrerie",
+      "type_defaut": "esthétique",
+      "origin_layer": "platrerie",
+      "gravite_technique": 3,
+      "image_ref": "0006_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0007_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0007_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0007_D02",
+      "categorie": "platrerie",
+      "type_defaut": "esthétique",
+      "origin_layer": "platrerie",
+      "gravite_technique": 3,
+      "image_ref": "0007_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0007_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0007_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0008_D01",
+      "categorie": "platrerie",
+      "type_defaut": "esthétique",
+      "origin_layer": "platrerie",
+      "gravite_technique": 3,
+      "image_ref": "0008_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0008_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0008_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0008_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "0008_SDB_GEN_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0009_D01",
+      "categorie": "revêtement",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "0009_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "0009_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0009_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0009_D03",
+      "categorie": "structure",
+      "type_defaut": "propreté/mise en œuvre",
+      "origin_layer": "structure",
+      "gravite_technique": 3,
+      "image_ref": "0009_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 4.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0010_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0010_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0010_D02",
+      "categorie": "platrerie",
+      "type_defaut": "préparation du support/esthétique",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "0010_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0010_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité Isolation/Perméabilité",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0010_SDB_MAC_20250819.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Parois contre murs froids, pare-vapeur"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0012_D01",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0012_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0012_D02",
+      "categorie": "plomberie",
+      "type_defaut": "mise en œuvre",
+      "origin_layer": "plomberie",
+      "gravite_technique": 2,
+      "image_ref": "0012_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "0012_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0012_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0013_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface/infiltration",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0013_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0013_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0013_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0013_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0013_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0014_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0014_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0014_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0014_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0014_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0014_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Revêtements & pentes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0014_D04",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0014_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0014_D05",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité/étanchéité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "0014_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "0015_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "0015_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "0015_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "0015_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "0015_D03",
+      "categorie": "platrerie",
+      "type_defaut": "esthétique",
+      "origin_layer": "platrerie",
+      "gravite_technique": 3,
+      "image_ref": "0015_SDB_GEN_20250826.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2001_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2001_SDB_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "FT_Baignoire_E6D122.pdf",
+        "partie": "Étanchéité et finitions"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2001_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2001_SDB_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2001_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2001_SDB_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2001_D04",
+      "categorie": "ventilation",
+      "type_defaut": "non-conformité",
+      "origin_layer": "ventilation",
+      "gravite_technique": 2,
+      "image_ref": "2001_SDB_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "6) Ventilation"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2001_D05",
+      "categorie": "menuiserie",
+      "type_defaut": "dégradation sur existant",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "2001_SDB_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2002_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2002_BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2002_D02",
+      "categorie": "revêtements",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2002_BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2003_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2003_BAIGNOIRE GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2003_D02",
+      "categorie": "revêtements",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2003_BAIGNOIRE GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2004_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2004_D02",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2004_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2004_D04",
+      "categorie": "finition",
+      "type_defaut": "propreté/préparation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2005_D01",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité/étanchéité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2005_SOUS-MEUBLE-VASQUE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2005_D02",
+      "categorie": "finition",
+      "type_defaut": "propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2005_SOUS-MEUBLE-VASQUE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2005_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2005_SOUS-MEUBLE-VASQUE_GEN.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2101_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2101_D02",
+      "categorie": "support",
+      "type_defaut": "défaut de planéité / propreté",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 4.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2101_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2101_D04",
+      "categorie": "ossature",
+      "type_defaut": "dégradation",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2102_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2102_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2102_D02",
+      "categorie": "sanitaire",
+      "type_defaut": "non-conformité Notice fabricant",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2102_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "NOTICE_Bain-Acrylique_v7",
+        "partie": "Chapitre 2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2102_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2102_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2103_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2103_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2103_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2103_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2103_D03",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 2,
+      "image_ref": "2103_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2104_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2104_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2104_D02",
+      "categorie": "platrerie",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2104_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2104_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2104_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Annexe C.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2105_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2105_D02",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 2,
+      "image_ref": "2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2105_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2105_D04",
+      "categorie": "platrerie",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2106_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2106_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2106_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité plomberie",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2106_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "norme": "FT_Vidange_E6D124.pdf",
+        "partie": "Étape 4: Test d'étanchéité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2106_D03",
+      "categorie": "platrerie",
+      "type_defaut": "préparation du support",
+      "origin_layer": "platrerie",
+      "gravite_technique": 2,
+      "image_ref": "2106_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2106_D04",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2106_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2107_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2107_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2107_D02",
+      "categorie": "support",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2107_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2107_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2107_EVACUATION_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2108_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2108_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2108_D02",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 2,
+      "image_ref": "2108_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2108_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2108_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2108_D04",
+      "categorie": "platrerie",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2108_EVACUATION_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2110_D01",
+      "categorie": "ventilation",
+      "type_defaut": "non-conformité",
+      "origin_layer": "ventilation",
+      "gravite_technique": 1,
+      "image_ref": "2110_VENTILATION-NATURELLE_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "6) Ventilation"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2110_D02",
+      "categorie": "ventilation",
+      "type_defaut": "dégradation",
+      "origin_layer": "ventilation",
+      "gravite_technique": 2,
+      "image_ref": "2110_VENTILATION-NATURELLE_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "6) Ventilation"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2111_D01",
+      "categorie": "ventilation",
+      "type_defaut": "dégradation",
+      "origin_layer": "ventilation",
+      "gravite_technique": 2,
+      "image_ref": "2111_VENTILATION-NATURELLE_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "6) Ventilation"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2111_D02",
+      "categorie": "ventilation",
+      "type_defaut": "non-conformité",
+      "origin_layer": "ventilation",
+      "gravite_technique": 1,
+      "image_ref": "2111_VENTILATION-NATURELLE_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "6) Ventilation"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2112_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2112_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2112_D02",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 1,
+      "image_ref": "2112_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2112_D03",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2112_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 7"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2113_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "fuite/infiltration/moisissure",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2113_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2113_D02",
+      "categorie": "revêtement",
+      "type_defaut": "non-conformité mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 1,
+      "image_ref": "2113_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2114_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2114_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "Joints périphériques / mastic sanitaire",
+        "partie": "produits"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2114_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2114_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2114_D03",
+      "categorie": "revêtements",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtements",
+      "gravite_technique": 3,
+      "image_ref": "2114_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 7"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2114_D04",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2114_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "FT_Baignoire_E6D122.pdf",
+        "partie": "Étanchéité et finitions"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2115_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2115_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2115_D02",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 1,
+      "image_ref": "2115_MITIGEUR-BAIN_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2116_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2116_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2116_D02",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 1,
+      "image_ref": "2116_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2116_D03",
+      "categorie": "plomberie",
+      "type_defaut": "esthétique/étanchéité",
+      "origin_layer": "plomberie",
+      "gravite_technique": 2,
+      "image_ref": "2116_MITIGEUR-BAIN_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2201_D01",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2201_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2201_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2201_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2201_D03",
+      "categorie": "revêtement",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2201_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2202_D01",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2202_JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2202_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2202_JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2202_D03",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2202_JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2203_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2203_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2203_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2203_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2203_D03",
+      "categorie": "revêtement",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2203_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2203_D04",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2203_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2204_D01",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2204_APPUI_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2204_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2204_APPUI_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2204_D03",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre / planéité",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2204_APPUI_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2205_D01",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2205_APPUI_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2205_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2205_APPUI_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2206_D01",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2206_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2206_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2206_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2206_D03",
+      "categorie": "revêtement",
+      "type_defaut": "mise en œuvre / finition",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2206_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2207_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2207_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2207_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC/Traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2207_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "NOTICE_CSTB-SPEC_2021",
+        "partie": "Chapitre 3.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2207_D03",
+      "categorie": "structure",
+      "type_defaut": "non-conformité",
+      "origin_layer": "structure",
+      "gravite_technique": 2,
+      "image_ref": "2207_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 3.2.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2207_D04",
+      "categorie": "revêtement",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2207_APPUI_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2209_D01",
+      "categorie": "plomberie",
+      "type_defaut": "non-conformité DTU",
+      "origin_layer": "plomberie",
+      "gravite_technique": 1,
+      "image_ref": "2209_PIEDS-SIPHON_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "doc_id": "DTU-007",
+        "source_file": "DTU_25.41_1993.pdf",
+        "source_page": "",
+        "article_id": ""
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2209_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2209_PIEDS-SIPHON_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2209_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité mise en œuvre",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2209_PIEDS-SIPHON_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.030000000000000027,
+      "regle_ref": {
+        "norme": "FT_Vidange_E6D124.pdf",
+        "partie": "Étape 4: Test d'étanchéité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2209_D04",
+      "categorie": "support",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2209_PIEDS-SIPHON_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.040000000000000036,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2210_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité SPEC",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2210_PIEDS_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Annexe A.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2210_D02",
+      "categorie": "support",
+      "type_defaut": "préparation du support",
+      "origin_layer": "revêtement",
+      "gravite_technique": 2,
+      "image_ref": "2210_PIEDS_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2301_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2303_JOINT_MGM.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2301_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2303_JOINT_MGM.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2301_D03",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/finition",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2303_JOINT_MGM.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 8.1.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2301_D04",
+      "categorie": "finition",
+      "type_defaut": "propreté/préparation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2303_JOINT_MGM.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2304_D01",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2304_INTERRUPTEUR-PRISE_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.42_P2_2012",
+        "partie": "4.2 Travaux ne faisant pas partie du marché"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2306_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2306_JOINT_MGS.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2306_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2306_JOINT_MGS.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 5.2.2"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2308_D01",
+      "categorie": "finition",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2308_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2308_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "2308_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.42_P2_2012",
+        "partie": "4.1 Généralités"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2308_D03",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2308_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.07999999999999996,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 8"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2309_D01",
+      "categorie": "finition",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2309_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2309_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "2309_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.42_P2_2012",
+        "partie": "4.1 Généralités"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2309_D03",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2309_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.07999999999999996,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 8"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2310_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2310__JOINT_MGB.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2310_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité mise en œuvre",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2310__JOINT_MGB.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2310_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité/mise en œuvre",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2310__JOINT_MGB.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2312_D01",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2312__JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 8.1.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2312_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2312__JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 25.42_P2_2012",
+        "partie": "4.2 Travaux ne faisant pas partie du marché"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2312_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "2312__JOINT_MAC.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.15000000000000002,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2402_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2402_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2402_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité mise en œuvre",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2402_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2402_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique/durabilité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "2402_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2403_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2403_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2403_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2403_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2403_D03",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2403_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 7"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2404_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2404_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2404_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2404_D04",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 7"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2405_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2405_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2405_D02",
+      "categorie": "revêtement",
+      "type_defaut": "esthétique/mise en œuvre",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "2405_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 7"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2405_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2405_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "DTU 52.2_2022",
+        "partie": "Partie 1-1 > 8"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2406_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2406_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2406_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "2406_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2406_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2406_BAGUETTE-BOIS_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2502_D01",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2502_JOINT-PEINTURE_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Revêtements & pentes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2502_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2502_JOINT-PEINTURE_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2503_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2503_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2503_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2503_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Revêtements & pentes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2503_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2503_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2504_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2504_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2504_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2504_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Revêtements & pentes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2504_D03",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2504_JOINT_MGP.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2506_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "2506_SPOT-VMC_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2506_D02",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité traversée",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2506_SPOT-VMC_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Traversées & percements"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2506_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2506_SPOT-VMC_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "DTU 25.41_1993",
+        "partie": "Chapitre 5.5.1"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2901_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2901_MEUBLE-VASQUE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2901_D02",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2901_MEUBLE-VASQUE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2901_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2901_MEUBLE-VASQUE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2902_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2902_BAGUETTES-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2902_D02",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité/mise en œuvre",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2902_BAGUETTES-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2902_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2902_BAGUETTES-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "2905_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "2905_DECOR-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "2905_D02",
+      "categorie": "menuiserie",
+      "type_defaut": "durabilité",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 2,
+      "image_ref": "2905_DECOR-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Choix des parois & systèmes"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "2905_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "2905_DECOR-BOIS_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3601_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "3601_JOINT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "3601_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/planéité",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3601_JOINT_DET.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3702_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'hygiène/étanchéité",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "3702_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "3702_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3702_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3702_D03",
+      "categorie": "finition",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "revêtement",
+      "gravite_technique": 3,
+      "image_ref": "3702_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3704_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'hygiène/étanchéité",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "3704_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "Joints périphériques / mastic sanitaire",
+        "partie": "produits"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "3704_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3704_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3705_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'hygiène/étanchéité",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 2,
+      "image_ref": "3705_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "Joints périphériques / mastic sanitaire",
+        "partie": "produits"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.5,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "moyen"
+      }
+    },
+    {
+      "id_defaut": "3705_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3705_CUVETTE_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3802_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "3802_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "3802_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3802_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3802_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "esthétique/dégradation",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "3802_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3803_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "3803_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.020000000000000018,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "3803_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3803_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3803_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "3803_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3804_D01",
+      "categorie": "étanchéité",
+      "type_defaut": "non-conformité d'interface",
+      "origin_layer": "étanchéité",
+      "gravite_technique": 1,
+      "image_ref": "3804_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.010000000000000009,
+      "regle_ref": {
+        "norme": "SDB_REF_DOC.pdf",
+        "partie": "Interfaces critiques"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.8,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "eleve"
+      }
+    },
+    {
+      "id_defaut": "3804_D02",
+      "categorie": "finition",
+      "type_defaut": "esthétique",
+      "origin_layer": "finition",
+      "gravite_technique": 3,
+      "image_ref": "3804_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.050000000000000044,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    },
+    {
+      "id_defaut": "3804_D03",
+      "categorie": "menuiserie",
+      "type_defaut": "esthétique/propreté",
+      "origin_layer": "menuiserie",
+      "gravite_technique": 3,
+      "image_ref": "3804_DORMANT_DEG.jpg",
+      "style": "MINEUR",
+      "incertitude": 0.09999999999999998,
+      "regle_ref": {
+        "norme": "SDB_def_class.pdf",
+        "partie": "Gravité"
+      },
+      "polygons_norm": [],
+      "polylines_norm": [],
+      "niveau_confiance_juridique": 0.3,
+      "prejudice_estime": {
+        "montant_euros": 0,
+        "categorie": "faible"
+      }
+    }
+  ]
+}
