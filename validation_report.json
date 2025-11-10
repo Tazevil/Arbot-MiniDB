@@ -1,0 +1,1852 @@
+{
+  "timestamp": "2025-11-10T20:52:44.131249Z",
+  "images_dir": "images",
+  "total_files": 94,
+  "valid": 94,
+  "invalid": 0,
+  "validations": [
+    {
+      "filename": "0001_SDB_GEN_20250818.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 1,
+        "file_ID_str": "0001",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250818",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "0002_SDB_GEN_20250818.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2,
+        "file_ID_str": "0002",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250818",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "0003_SALON-PROTECTION_GEN_20250818.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3,
+        "file_ID_str": "0003",
+        "detail": "SALON-PROTECTION",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250818",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "0004_SALON-PROTECTION_GEN_20250818.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 4,
+        "file_ID_str": "0004",
+        "detail": "SALON-PROTECTION",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250818",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "0005_WC_GEN_20250818.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 5,
+        "file_ID_str": "0005",
+        "detail": "WC",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250818",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "0006_SDB_GEN_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 6,
+        "file_ID_str": "0006",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "0007_SDB_GEN_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 7,
+        "file_ID_str": "0007",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 7
+      }
+    },
+    {
+      "filename": "0008_SDB_GEN_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 8,
+        "file_ID_str": "0008",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 8
+      }
+    },
+    {
+      "filename": "0009_SDB_MAC_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 9,
+        "file_ID_str": "0009",
+        "detail": "SDB",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 9
+      }
+    },
+    {
+      "filename": "0010_SDB_MAC_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 10,
+        "file_ID_str": "0010",
+        "detail": "SDB",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 10
+      }
+    },
+    {
+      "filename": "0011_WC_GEN_20250819.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 11,
+        "file_ID_str": "0011",
+        "detail": "WC",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250819",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 11
+      }
+    },
+    {
+      "filename": "0012_SDB_GEN_20250826.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 12,
+        "file_ID_str": "0012",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250826",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 12
+      }
+    },
+    {
+      "filename": "0013_SDB_GEN_20250826.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 13,
+        "file_ID_str": "0013",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250826",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 13
+      }
+    },
+    {
+      "filename": "0014_SDB_GEN_20250826.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 14,
+        "file_ID_str": "0014",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250826",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 14
+      }
+    },
+    {
+      "filename": "0015_SDB_GEN_20250826.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 15,
+        "file_ID_str": "0015",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": "20250826",
+        "ext": "jpg",
+        "zone_ID": 0,
+        "zone_name": "CHANTIER",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 15
+      }
+    },
+    {
+      "filename": "2001_SDB_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2001,
+        "file_ID_str": "2001",
+        "detail": "SDB",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2002_BAIGNOIRE_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2002,
+        "file_ID_str": "2002",
+        "detail": "BAIGNOIRE",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2003_BAIGNOIRE_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2003,
+        "file_ID_str": "2003",
+        "detail": "BAIGNOIRE",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2004_SOUS-BAIGNOIRE_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2004,
+        "file_ID_str": "2004",
+        "detail": "SOUS-BAIGNOIRE",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2005_SOUS-MEUBLE-VASQUE_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2005,
+        "file_ID_str": "2005",
+        "detail": "SOUS-MEUBLE-VASQUE",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 0,
+        "cat_name": "VUE GENERALE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2101_ALIMENTATION-EVACUATION_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2101,
+        "file_ID_str": "2101",
+        "detail": "ALIMENTATION-EVACUATION",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2102_EVACUATION_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2102,
+        "file_ID_str": "2102",
+        "detail": "EVACUATION",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2103_EVACUATION_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2103,
+        "file_ID_str": "2103",
+        "detail": "EVACUATION",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2104_ALIMENTATION_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2104,
+        "file_ID_str": "2104",
+        "detail": "ALIMENTATION",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2105_ALIMENTATION-EVACUATION_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2105,
+        "file_ID_str": "2105",
+        "detail": "ALIMENTATION-EVACUATION",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2106_EVACUATION_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2106,
+        "file_ID_str": "2106",
+        "detail": "EVACUATION",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "2107_EVACUATION_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2107,
+        "file_ID_str": "2107",
+        "detail": "EVACUATION",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 7
+      }
+    },
+    {
+      "filename": "2108_EVACUATION_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2108,
+        "file_ID_str": "2108",
+        "detail": "EVACUATION",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 8
+      }
+    },
+    {
+      "filename": "2109_ALIMENTATION-EVACUATION_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2109,
+        "file_ID_str": "2109",
+        "detail": "ALIMENTATION-EVACUATION",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 9
+      }
+    },
+    {
+      "filename": "2110_VENTILATION-NATURELLE_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2110,
+        "file_ID_str": "2110",
+        "detail": "VENTILATION-NATURELLE",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 10
+      }
+    },
+    {
+      "filename": "2111_VENTILATION-NATURELLE_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2111,
+        "file_ID_str": "2111",
+        "detail": "VENTILATION-NATURELLE",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 11
+      }
+    },
+    {
+      "filename": "2112_MITIGEUR-BAIN_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2112,
+        "file_ID_str": "2112",
+        "detail": "MITIGEUR-BAIN",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 12
+      }
+    },
+    {
+      "filename": "2113_MITIGEUR-BAIN_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2113,
+        "file_ID_str": "2113",
+        "detail": "MITIGEUR-BAIN",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 13
+      }
+    },
+    {
+      "filename": "2114_MITIGEUR-BAIN_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2114,
+        "file_ID_str": "2114",
+        "detail": "MITIGEUR-BAIN",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 14
+      }
+    },
+    {
+      "filename": "2115_MITIGEUR-BAIN_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2115,
+        "file_ID_str": "2115",
+        "detail": "MITIGEUR-BAIN",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 15
+      }
+    },
+    {
+      "filename": "2116_MITIGEUR-BAIN_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2116,
+        "file_ID_str": "2116",
+        "detail": "MITIGEUR-BAIN",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 1,
+        "cat_name": "PLOMBERIE",
+        "cat_img_ID": 16
+      }
+    },
+    {
+      "filename": "2201_APPUI_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2201,
+        "file_ID_str": "2201",
+        "detail": "APPUI",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2202_JOINT_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2202,
+        "file_ID_str": "2202",
+        "detail": "JOINT",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2203_APPUI_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2203,
+        "file_ID_str": "2203",
+        "detail": "APPUI",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2204_APPUI_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2204,
+        "file_ID_str": "2204",
+        "detail": "APPUI",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2205_APPUI_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2205,
+        "file_ID_str": "2205",
+        "detail": "APPUI",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2206_APPUI_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2206,
+        "file_ID_str": "2206",
+        "detail": "APPUI",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "2207_APPUI_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2207,
+        "file_ID_str": "2207",
+        "detail": "APPUI",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 7
+      }
+    },
+    {
+      "filename": "2208_PIEDS_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2208,
+        "file_ID_str": "2208",
+        "detail": "PIEDS",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 8
+      }
+    },
+    {
+      "filename": "2209_PIEDS-SIPHON_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2209,
+        "file_ID_str": "2209",
+        "detail": "PIEDS-SIPHON",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 9
+      }
+    },
+    {
+      "filename": "2210_PIEDS_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2210,
+        "file_ID_str": "2210",
+        "detail": "PIEDS",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 2,
+        "cat_name": "BAIGNOIRE",
+        "cat_img_ID": 10
+      }
+    },
+    {
+      "filename": "2301_JOINT_MGM.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2301,
+        "file_ID_str": "2301",
+        "detail": "JOINT",
+        "viewtype": "MGM",
+        "viewtype_name": "Wall-Wall",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2302_JOINT_MGM.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2302,
+        "file_ID_str": "2302",
+        "detail": "JOINT",
+        "viewtype": "MGM",
+        "viewtype_name": "Wall-Wall",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2303_JOINT_MGM.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2303,
+        "file_ID_str": "2303",
+        "detail": "JOINT",
+        "viewtype": "MGM",
+        "viewtype_name": "Wall-Wall",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2304_INTERRUPTEUR-PRISE_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2304,
+        "file_ID_str": "2304",
+        "detail": "INTERRUPTEUR-PRISE",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2305_JOINT_MGS.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2305,
+        "file_ID_str": "2305",
+        "detail": "JOINT",
+        "viewtype": "MGS",
+        "viewtype_name": "Wall-Floor",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2306_JOINT_MGS.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2306,
+        "file_ID_str": "2306",
+        "detail": "JOINT",
+        "viewtype": "MGS",
+        "viewtype_name": "Wall-Floor",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "2307_JOINT_MGS.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2307,
+        "file_ID_str": "2307",
+        "detail": "JOINT",
+        "viewtype": "MGS",
+        "viewtype_name": "Wall-Floor",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 7
+      }
+    },
+    {
+      "filename": "2308_JOINT_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2308,
+        "file_ID_str": "2308",
+        "detail": "JOINT",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 8
+      }
+    },
+    {
+      "filename": "2309_JOINT_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2309,
+        "file_ID_str": "2309",
+        "detail": "JOINT",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 9
+      }
+    },
+    {
+      "filename": "2310_JOINT_MGB.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2310,
+        "file_ID_str": "2310",
+        "detail": "JOINT",
+        "viewtype": "MGB",
+        "viewtype_name": "Wall-Tub",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 10
+      }
+    },
+    {
+      "filename": "2311_JOINT_MGB.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2311,
+        "file_ID_str": "2311",
+        "detail": "JOINT",
+        "viewtype": "MGB",
+        "viewtype_name": "Wall-Tub",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 11
+      }
+    },
+    {
+      "filename": "2312_JOINT_MAC.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2312,
+        "file_ID_str": "2312",
+        "detail": "JOINT",
+        "viewtype": "MAC",
+        "viewtype_name": "Macro",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 3,
+        "cat_name": "CARRELAGE",
+        "cat_img_ID": 12
+      }
+    },
+    {
+      "filename": "2401_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2401,
+        "file_ID_str": "2401",
+        "detail": "CARRELAGE-DESALIGNEMENT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2402_BAGUETTE-BOIS_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2402,
+        "file_ID_str": "2402",
+        "detail": "BAGUETTE-BOIS",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2403_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2403,
+        "file_ID_str": "2403",
+        "detail": "CARRELAGE-DESALIGNEMENT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2404_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2404,
+        "file_ID_str": "2404",
+        "detail": "CARRELAGE-DESALIGNEMENT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2405_CARRELAGE-DESALIGNEMENT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2405,
+        "file_ID_str": "2405",
+        "detail": "CARRELAGE-DESALIGNEMENT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2406_BAGUETTE-BOIS_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2406,
+        "file_ID_str": "2406",
+        "detail": "BAGUETTE-BOIS",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 4,
+        "cat_name": "FENETRE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "2501_JOINT-PEINTURE_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2501,
+        "file_ID_str": "2501",
+        "detail": "JOINT-PEINTURE",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2502_JOINT-PEINTURE_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2502,
+        "file_ID_str": "2502",
+        "detail": "JOINT-PEINTURE",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2503_JOINT_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2503,
+        "file_ID_str": "2503",
+        "detail": "JOINT",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2504_JOINT_MGP.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2504,
+        "file_ID_str": "2504",
+        "detail": "JOINT",
+        "viewtype": "MGP",
+        "viewtype_name": "Wall-Ceiling",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2505_SPOT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2505,
+        "file_ID_str": "2505",
+        "detail": "SPOT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "2506_SPOT-VMC_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2506,
+        "file_ID_str": "2506",
+        "detail": "SPOT-VMC",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 5,
+        "cat_name": "PLAFOND",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "2901_MEUBLE-VASQUE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2901,
+        "file_ID_str": "2901",
+        "detail": "MEUBLE-VASQUE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 9,
+        "cat_name": "EXISTANT",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "2902_BAGUETTES-BOIS_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2902,
+        "file_ID_str": "2902",
+        "detail": "BAGUETTES-BOIS",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 9,
+        "cat_name": "EXISTANT",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "2903_DECOR-BOIS_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2903,
+        "file_ID_str": "2903",
+        "detail": "DECOR-BOIS",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 9,
+        "cat_name": "EXISTANT",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "2904_DECOR-BOIS_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2904,
+        "file_ID_str": "2904",
+        "detail": "DECOR-BOIS",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 9,
+        "cat_name": "EXISTANT",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "2905_DECOR-BOIS_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 2905,
+        "file_ID_str": "2905",
+        "detail": "DECOR-BOIS",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 2,
+        "zone_name": "SDB",
+        "cat_ID": 9,
+        "cat_name": "EXISTANT",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "3601_JOINT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3601,
+        "file_ID_str": "3601",
+        "detail": "JOINT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 6,
+        "cat_name": "PLATRERIE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "3602_JOINT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3602,
+        "file_ID_str": "3602",
+        "detail": "JOINT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 6,
+        "cat_name": "PLATRERIE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "3603_JOINT_DET.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3603,
+        "file_ID_str": "3603",
+        "detail": "JOINT",
+        "viewtype": "DET",
+        "viewtype_name": "Detail",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 6,
+        "cat_name": "PLATRERIE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "3701_CUVETTE_GEN.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3701,
+        "file_ID_str": "3701",
+        "detail": "CUVETTE",
+        "viewtype": "GEN",
+        "viewtype_name": "General",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "3702_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3702,
+        "file_ID_str": "3702",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "3703_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3703,
+        "file_ID_str": "3703",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "3704_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3704,
+        "file_ID_str": "3704",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "3705_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3705,
+        "file_ID_str": "3705",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 5
+      }
+    },
+    {
+      "filename": "3706_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3706,
+        "file_ID_str": "3706",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 6
+      }
+    },
+    {
+      "filename": "3707_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3707,
+        "file_ID_str": "3707",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 7
+      }
+    },
+    {
+      "filename": "3708_CUVETTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3708,
+        "file_ID_str": "3708",
+        "detail": "CUVETTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 8
+      }
+    },
+    {
+      "filename": "3709_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3709,
+        "file_ID_str": "3709",
+        "detail": "COFFRAGE-BATI-SUPPORT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 9
+      }
+    },
+    {
+      "filename": "3710_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3710,
+        "file_ID_str": "3710",
+        "detail": "COFFRAGE-BATI-SUPPORT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 10
+      }
+    },
+    {
+      "filename": "3711_COFFRAGE-BATI-SUPPORT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3711,
+        "file_ID_str": "3711",
+        "detail": "COFFRAGE-BATI-SUPPORT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 7,
+        "cat_name": "SANITAIRE",
+        "cat_img_ID": 11
+      }
+    },
+    {
+      "filename": "3801_PORTE_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3801,
+        "file_ID_str": "3801",
+        "detail": "PORTE",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 8,
+        "cat_name": "PLACARD",
+        "cat_img_ID": 1
+      }
+    },
+    {
+      "filename": "3802_DORMANT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3802,
+        "file_ID_str": "3802",
+        "detail": "DORMANT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 8,
+        "cat_name": "PLACARD",
+        "cat_img_ID": 2
+      }
+    },
+    {
+      "filename": "3803_DORMANT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3803,
+        "file_ID_str": "3803",
+        "detail": "DORMANT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 8,
+        "cat_name": "PLACARD",
+        "cat_img_ID": 3
+      }
+    },
+    {
+      "filename": "3804_DORMANT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3804,
+        "file_ID_str": "3804",
+        "detail": "DORMANT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 8,
+        "cat_name": "PLACARD",
+        "cat_img_ID": 4
+      }
+    },
+    {
+      "filename": "3805_DORMANT_DEG.jpg",
+      "valid": true,
+      "errors": [],
+      "parsed": {
+        "file_ID": 3805,
+        "file_ID_str": "3805",
+        "detail": "DORMANT",
+        "viewtype": "DEG",
+        "viewtype_name": "Damage",
+        "date": null,
+        "ext": "jpg",
+        "zone_ID": 3,
+        "zone_name": "WC",
+        "cat_ID": 8,
+        "cat_name": "PLACARD",
+        "cat_img_ID": 5
+      }
+    }
+  ],
+  "summary_by_zone": {
+    "CHANTIER": {
+      "total": 15,
+      "valid": 15
+    },
+    "SDB": {
+      "total": 60,
+      "valid": 60
+    },
+    "WC": {
+      "total": 19,
+      "valid": 19
+    }
+  },
+  "summary_by_category": {
+    "VUE GENERALE": {
+      "total": 20,
+      "valid": 20
+    },
+    "PLOMBERIE": {
+      "total": 16,
+      "valid": 16
+    },
+    "BAIGNOIRE": {
+      "total": 10,
+      "valid": 10
+    },
+    "CARRELAGE": {
+      "total": 12,
+      "valid": 12
+    },
+    "FENETRE": {
+      "total": 6,
+      "valid": 6
+    },
+    "PLAFOND": {
+      "total": 6,
+      "valid": 6
+    },
+    "EXISTANT": {
+      "total": 5,
+      "valid": 5
+    },
+    "PLATRERIE": {
+      "total": 3,
+      "valid": 3
+    },
+    "SANITAIRE": {
+      "total": 11,
+      "valid": 11
+    },
+    "PLACARD": {
+      "total": 5,
+      "valid": 5
+    }
+  },
+  "errors": []
+}

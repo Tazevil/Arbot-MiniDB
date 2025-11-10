@@ -1,0 +1,177 @@
+================================================================================
+ARBOT-MINIDB IMAGE VALIDATION - COMPLETE LISTING
+================================================================================
+
+ZONE 0: CHANTIER - 15 files
+--------------------------------------------------------------------------------
+
+  Category 0: VUE GENERALE (15 images)
+    0001 | SDB                            | General         | jpg   [Date: 20250818]
+    0002 | SDB                            | General         | jpg   [Date: 20250818]
+    0003 | SALON-PROTECTION               | General         | jpg   [Date: 20250818]
+    0004 | SALON-PROTECTION               | General         | jpg   [Date: 20250818]
+    0005 | WC                             | General         | jpg   [Date: 20250818]
+    0006 | SDB                            | General         | jpg   [Date: 20250819]
+    0007 | SDB                            | General         | jpg   [Date: 20250819]
+    0008 | SDB                            | General         | jpg   [Date: 20250819]
+    0009 | SDB                            | Macro           | jpg   [Date: 20250819]
+    0010 | SDB                            | Macro           | jpg   [Date: 20250819]
+    0011 | WC                             | General         | jpg   [Date: 20250819]
+    0012 | SDB                            | General         | jpg   [Date: 20250826]
+    0013 | SDB                            | General         | jpg   [Date: 20250826]
+    0014 | SDB                            | General         | jpg   [Date: 20250826]
+    0015 | SDB                            | General         | jpg   [Date: 20250826]
+
+
+ZONE 2: SDB - 60 files
+--------------------------------------------------------------------------------
+
+  Category 0: VUE GENERALE (5 images)
+    2001 | SDB                            | General         | jpg
+    2002 | BAIGNOIRE                      | General         | jpg
+    2003 | BAIGNOIRE                      | General         | jpg
+    2004 | SOUS-BAIGNOIRE                 | General         | jpg
+    2005 | SOUS-MEUBLE-VASQUE             | General         | jpg
+
+  Category 1: PLOMBERIE (16 images)
+    2101 | ALIMENTATION-EVACUATION        | Detail          | jpg
+    2102 | EVACUATION                     | Detail          | jpg
+    2103 | EVACUATION                     | Macro           | jpg
+    2104 | ALIMENTATION                   | Macro           | jpg
+    2105 | ALIMENTATION-EVACUATION        | Detail          | jpg
+    2106 | EVACUATION                     | Macro           | jpg
+    2107 | EVACUATION                     | Macro           | jpg
+    2108 | EVACUATION                     | Detail          | jpg
+    2109 | ALIMENTATION-EVACUATION        | Detail          | jpg
+    2110 | VENTILATION-NATURELLE          | Detail          | jpg
+    2111 | VENTILATION-NATURELLE          | Detail          | jpg
+    2112 | MITIGEUR-BAIN                  | Detail          | jpg
+    2113 | MITIGEUR-BAIN                  | Macro           | jpg
+    2114 | MITIGEUR-BAIN                  | Macro           | jpg
+    2115 | MITIGEUR-BAIN                  | Macro           | jpg
+    2116 | MITIGEUR-BAIN                  | Detail          | jpg
+
+  Category 2: BAIGNOIRE (10 images)
+    2201 | APPUI                          | Detail          | jpg
+    2202 | JOINT                          | Macro           | jpg
+    2203 | APPUI                          | Detail          | jpg
+    2204 | APPUI                          | Macro           | jpg
+    2205 | APPUI                          | Macro           | jpg
+    2206 | APPUI                          | Detail          | jpg
+    2207 | APPUI                          | Detail          | jpg
+    2208 | PIEDS                          | Macro           | jpg
+    2209 | PIEDS-SIPHON                   | Macro           | jpg
+    2210 | PIEDS                          | Macro           | jpg
+
+  Category 3: CARRELAGE (12 images)
+    2301 | JOINT                          | Wall-Wall       | jpg
+    2302 | JOINT                          | Wall-Wall       | jpg
+    2303 | JOINT                          | Wall-Wall       | jpg
+    2304 | INTERRUPTEUR-PRISE             | Macro           | jpg
+    2305 | JOINT                          | Wall-Floor      | jpg
+    2306 | JOINT                          | Wall-Floor      | jpg
+    2307 | JOINT                          | Wall-Floor      | jpg
+    2308 | JOINT                          | Wall-Ceiling    | jpg
+    2309 | JOINT                          | Wall-Ceiling    | jpg
+    2310 | JOINT                          | Wall-Tub        | jpg
+    2311 | JOINT                          | Wall-Tub        | jpg
+    2312 | JOINT                          | Macro           | jpg
+
+  Category 4: FENETRE (6 images)
+    2401 | CARRELAGE-DESALIGNEMENT        | Detail          | jpg
+    2402 | BAGUETTE-BOIS                  | Detail          | jpg
+    2403 | CARRELAGE-DESALIGNEMENT        | Detail          | jpg
+    2404 | CARRELAGE-DESALIGNEMENT        | Detail          | jpg
+    2405 | CARRELAGE-DESALIGNEMENT        | Detail          | jpg
+    2406 | BAGUETTE-BOIS                  | Detail          | jpg
+
+  Category 5: PLAFOND (6 images)
+    2501 | JOINT-PEINTURE                 | Wall-Ceiling    | jpg
+    2502 | JOINT-PEINTURE                 | Wall-Ceiling    | jpg
+    2503 | JOINT                          | Wall-Ceiling    | jpg
+    2504 | JOINT                          | Wall-Ceiling    | jpg
+    2505 | SPOT                           | Damage          | jpg
+    2506 | SPOT-VMC                       | Damage          | jpg
+
+  Category 9: EXISTANT (5 images)
+    2901 | MEUBLE-VASQUE                  | Damage          | jpg
+    2902 | BAGUETTES-BOIS                 | Damage          | jpg
+    2903 | DECOR-BOIS                     | Damage          | jpg
+    2904 | DECOR-BOIS                     | Damage          | jpg
+    2905 | DECOR-BOIS                     | Damage          | jpg
+
+
+ZONE 3: WC - 19 files
+--------------------------------------------------------------------------------
+
+  Category 6: PLATRERIE (3 images)
+    3601 | JOINT                          | Detail          | jpg
+    3602 | JOINT                          | Detail          | jpg
+    3603 | JOINT                          | Detail          | jpg
+
+  Category 7: SANITAIRE (11 images)
+    3701 | CUVETTE                        | General         | jpg
+    3702 | CUVETTE                        | Damage          | jpg
+    3703 | CUVETTE                        | Damage          | jpg
+    3704 | CUVETTE                        | Damage          | jpg
+    3705 | CUVETTE                        | Damage          | jpg
+    3706 | CUVETTE                        | Damage          | jpg
+    3707 | CUVETTE                        | Damage          | jpg
+    3708 | CUVETTE                        | Damage          | jpg
+    3709 | COFFRAGE-BATI-SUPPORT          | Damage          | jpg
+    3710 | COFFRAGE-BATI-SUPPORT          | Damage          | jpg
+    3711 | COFFRAGE-BATI-SUPPORT          | Damage          | jpg
+
+  Category 8: PLACARD (5 images)
+    3801 | PORTE                          | Damage          | jpg
+    3802 | DORMANT                        | Damage          | jpg
+    3803 | DORMANT                        | Damage          | jpg
+    3804 | DORMANT                        | Damage          | jpg
+    3805 | DORMANT                        | Damage          | jpg
+
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+Total Valid: 94/94 (100%)
+Total Invalid: 0/94 (0%)
+
+By Zone:
+  CHANTIER             15/15 (100%)
+  SDB                  60/60 (100%)
+  WC                   19/19 (100%)
+
+By Category:
+  BAIGNOIRE            10/10 (100%)
+  CARRELAGE            12/12 (100%)
+  EXISTANT              5/ 5 (100%)
+  FENETRE               6/ 6 (100%)
+  PLACARD               5/ 5 (100%)
+  PLAFOND               6/ 6 (100%)
+  PLATRERIE             3/ 3 (100%)
+  PLOMBERIE            16/16 (100%)
+  SANITAIRE            11/11 (100%)
+  VUE GENERALE         20/20 (100%)
+
+================================================================================
+STATUS: ALL IMAGES CORRECTLY NAMED AND ORGANIZED
+================================================================================
+
+Naming Convention: NameGen v1.5
+Pattern: NNNN_DETAIL_VIEWTYPE[_YYYYMMDD].ext
+
+File ID Formula: zone_ID*1000 + cat_ID*100 + cat_img_ID
+
+All filenames follow the official convention:
+- File IDs are valid and consistent
+- Details are in UPPERCASE (with hyphens allowed, no spaces)
+- Viewtypes are exactly 3 uppercase letters from the approved enum
+- Extensions are lowercase (jpg, jpeg, png, webp, tiff)
+- CHANTIER (zone 0) images have required date stamps (YYYYMMDD)
+- All files use valid zone and category IDs
+
+Generated: 2025-11-10
+Reference: json/name_convention.json (v1.5)
+Validator: validate_images.py
+
+================================================================================
